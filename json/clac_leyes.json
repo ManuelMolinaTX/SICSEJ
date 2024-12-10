@@ -1,0 +1,487 @@
+[
+  {
+    "cve_ley": 26,
+    "descripcion": "Ley del Registro Nacional de Vehículos",
+    "siglas": "LRENAVE"
+  },
+  {
+    "cve_ley": 27,
+    "descripcion": "Ley del Seguro Social",
+    "siglas": "LSS"
+  },
+  {
+    "cve_ley": 28,
+    "descripcion": "Ley del SAT",
+    "siglas": "LSAT"
+  },
+  {
+    "cve_ley": 29,
+    "descripcion": "Ley Federal de Competencia Económica",
+    "siglas": "LFCE"
+  },
+  {
+    "cve_ley": 30,
+    "descripcion": "Ley Federal de Derechos",
+    "siglas": "LFD"
+  },
+  {
+    "cve_ley": 31,
+    "descripcion": "Ley Federal de Instituciones de Fianzas",
+    "siglas": "LFIF"
+  },
+  {
+    "cve_ley": 32,
+    "descripcion": "Ley Federal de las Entidades Paraestatales",
+    "siglas": "LFEP"
+  },
+  {
+    "cve_ley": 33,
+    "descripcion": "Ley Federal de Procedimiento Administrativo",
+    "siglas": "LFPA"
+  },
+  {
+    "cve_ley": 35,
+    "descripcion": "Ley Federal de Radio y Televisión",
+    "siglas": "LFRT"
+  },
+  {
+    "cve_ley": 34,
+    "descripcion": "Ley Federal de Protección al Consumidor",
+    "siglas": "LFPC"
+  },
+  {
+    "cve_ley": 36,
+    "descripcion": "Ley Federal de Responsabilidades de los Servidores Públicos",
+    "siglas": "LFRSP"
+  },
+  {
+    "cve_ley": 37,
+    "descripcion": "Ley Federal del Trabajo",
+    "siglas": "LFT"
+  },
+  {
+    "cve_ley": 38,
+    "descripcion": "Ley General del Equilibrio Ecológico y la Protección al Ambiente",
+    "siglas": "LGEEPA"
+  },
+  {
+    "cve_ley": 39,
+    "descripcion": "Ley General de Organizaciones y Actividades Auxiliares del Crédito",
+    "siglas": "LGOAAC"
+  },
+  {
+    "cve_ley": 40,
+    "descripcion": "Ley General de Pesas y Medidas",
+    "siglas": "LGPM"
+  },
+  {
+    "cve_ley": 41,
+    "descripcion": "Ley General de Población",
+    "siglas": "LGP"
+  },
+  {
+    "cve_ley": 42,
+    "descripcion": "Ley Orgánica de la Administración Publica Federal",
+    "siglas": "LOAPF"
+  },
+  {
+    "cve_ley": 43,
+    "descripcion": "Ley Orgánica del Banco de México",
+    "siglas": "LOBM"
+  },
+  {
+    "cve_ley": 44,
+    "descripcion": "Ley Federal Sobre Metrología y Normalización",
+    "siglas": "LFSMN"
+  },
+  {
+    "cve_ley": 45,
+    "descripcion": "Reglamento de Distribución de Gas",
+    "siglas": "RDG"
+  },
+  {
+    "cve_ley": 46,
+    "descripcion": "Reglamento de Hacienda y Crédito Público",
+    "siglas": "RHCP"
+  },
+  {
+    "cve_ley": 47,
+    "descripcion": "Reglamento de la Ley para Promover la Inversión Mexicana y Regular la Inversión Extranjera",
+    "siglas": "RLPIMRIE"
+  },
+  {
+    "cve_ley": 48,
+    "descripcion": "Reglamento del Seguro Obligatorio de los Trabajadores Temporales y Eventuales Urbanos",
+    "siglas": "RSOTTEU"
+  },
+  {
+    "cve_ley": 49,
+    "descripcion": "Reglamento General de Seguridad e Higiene en el Trabajo",
+    "siglas": "RGSHT"
+  },
+  {
+    "cve_ley": 50,
+    "descripcion": "Reglamento para el Pago de Cuotas y Contribuciones del Seguro Social",
+    "siglas": "RPCCSS"
+  },
+  {
+    "cve_ley": 1,
+    "descripcion": "Código Federal de Procedimientos Civiles",
+    "siglas": "CFPC"
+  },
+  {
+    "cve_ley": 2,
+    "descripcion": "Código Financiero del Distrito Federal",
+    "siglas": "CFDF"
+  },
+  {
+    "cve_ley": 3,
+    "descripcion": "Código Fiscal de la Federación",
+    "siglas": "CFF"
+  },
+  {
+    "cve_ley": 4,
+    "descripcion": "Código Sanitario",
+    "siglas": "CS"
+  },
+  {
+    "cve_ley": 5,
+    "descripcion": "Ley Aduanera",
+    "siglas": "LA"
+  },
+  {
+    "cve_ley": 6,
+    "descripcion": "Ley de Atribuciones del Ejecutivo Federal en Materia Económica",
+    "siglas": "LAEFME"
+  },
+  {
+    "cve_ley": 63,
+    "descripcion": "Ley de Comercio Exterior",
+    "siglas": "LCE"
+  },
+  {
+    "cve_ley": 8,
+    "descripcion": "Ley Federal del Impuesto Sobre Automóviles Nuevos",
+    "siglas": "LFISAN"
+  },
+  {
+    "cve_ley": 9,
+    "descripcion": "Ley de la Comisión Nacional de los Sistemas de Ahorros para el Retiro",
+    "siglas": "LCNSAR"
+  },
+  {
+    "cve_ley": 10,
+    "descripcion": "Ley de la Propiedad Industrial",
+    "siglas": "LPI"
+  },
+  {
+    "cve_ley": 11,
+    "descripcion": "Ley de los Sistemas de Ahorro para el Retiro",
+    "siglas": "LSAR"
+  },
+  {
+    "cve_ley": 12,
+    "descripcion": "Ley de Obras Públicas y Adquisiciones                                                                                                                                                                   ",
+    "siglas": "LOPA"
+  },
+  {
+    "cve_ley": 13,
+    "descripcion": "Ley de Presupuesto Contabilidad y Gasto Público Federal",
+    "siglas": "LPCGPF"
+  },
+  {
+    "cve_ley": 14,
+    "descripcion": "Ley Federal de Turismo",
+    "siglas": "LFT"
+  },
+  {
+    "cve_ley": 15,
+    "descripcion": "Ley de Vías Generales de Comunicación",
+    "siglas": "LVGC"
+  },
+  {
+    "cve_ley": 16,
+    "descripcion": "Ley del Impuesto al Activo",
+    "siglas": "LIA"
+  },
+  {
+    "cve_ley": 17,
+    "descripcion": "Ley del Impuesto al Valor Agregado",
+    "siglas": "LIVA"
+  },
+  {
+    "cve_ley": 18,
+    "descripcion": "Ley del Impuesto Especial Sobre Producción y Servicios",
+    "siglas": "LIESPS"
+  },
+  {
+    "cve_ley": 19,
+    "descripcion": "Ley del Impuesto General de Importación",
+    "siglas": "LIGI"
+  },
+  {
+    "cve_ley": 20,
+    "descripcion": "Ley del Impuesto por Remuneración al Trabajo Personal",
+    "siglas": "LIRTP"
+  },
+  {
+    "cve_ley": 21,
+    "descripcion": "Ley del Impuesto Sobre la Renta",
+    "siglas": "LISR"
+  },
+  {
+    "cve_ley": 22,
+    "descripcion": "Ley del Impuesto Sobre la Renta e Impuesto al Valor Agregado",
+    "siglas": "LISRIVA"
+  },
+  {
+    "cve_ley": 23,
+    "descripcion": "Ley del INFONAVIT",
+    "siglas": "LINFONAVIT"
+  },
+  {
+    "cve_ley": 24,
+    "descripcion": "Ley del Instituto de Seguridad Social para las Fuerzas Armadas Mexicanas",
+    "siglas": "LISSFAM"
+  },
+  {
+    "cve_ley": 25,
+    "descripcion": "Ley del ISSSTE",
+    "siglas": "LISSSTE"
+  },
+  {
+    "cve_ley": 51,
+    "descripcion": "Reglamento para las Clases de Empresas y Determinación de Grado de Riesgo del Seguro",
+    "siglas": "RCEDGRS"
+  },
+  {
+    "cve_ley": 52,
+    "descripcion": "Reglamento que establece el procedimiento para la aplicación de Sanciones administrativas por violación a la Ley Federal del Trabajo",
+    "siglas": "RSLFT"
+  },
+  {
+    "cve_ley": 53,
+    "descripcion": "Código de Justicia Militar",
+    "siglas": "CJM"
+  },
+  {
+    "cve_ley": 54,
+    "descripcion": "Estatuto Orgánico de Caminos y Puentes Federales de Ingresos y Servicios Conexos",
+    "siglas": "EOCPFISC"
+  },
+  {
+    "cve_ley": 55,
+    "descripcion": "Estatuto Orgánico de la Procuraduría Federal del Consumidor",
+    "siglas": "EOPFC"
+  },
+  {
+    "cve_ley": 56,
+    "descripcion": "Estatuto Orgánico del Instituto del Fondo Nacional de la Vivienda para los Trabajadores",
+    "siglas": "EOIFNVT"
+  },
+  {
+    "cve_ley": 57,
+    "descripcion": "Estatuto Orgánico del IMPI",
+    "siglas": "EOIMPI"
+  },
+  {
+    "cve_ley": 58,
+    "descripcion": "Ley Agraria",
+    "siglas": "LAG"
+  },
+  {
+    "cve_ley": 59,
+    "descripcion": "Ley de Aeropuertos",
+    "siglas": "LAE"
+  },
+  {
+    "cve_ley": 60,
+    "descripcion": "Ley de Aguas Nacionales",
+    "siglas": "LAN"
+  },
+  {
+    "cve_ley": 61,
+    "descripcion": "Ley de Aviación Civil",
+    "siglas": "LAC"
+  },
+  {
+    "cve_ley": 62,
+    "descripcion": "Ley de Caminos, Puentes y Autotransporte Federal",
+    "siglas": "LCPAF"
+  },
+  {
+    "cve_ley": 64,
+    "descripcion": "Ley de Coordinación Fiscal",
+    "siglas": "LCF                 "
+  },
+  {
+    "cve_ley": 65,
+    "descripcion": "Ley de Imprenta",
+    "siglas": "LI"
+  },
+  {
+    "cve_ley": 66,
+    "descripcion": "Ley de Instituciones de Crédito",
+    "siglas": "LIC"
+  },
+  {
+    "cve_ley": 67,
+    "descripcion": "Ley de Navegación y Comercio Marítimo",
+    "siglas": "LNCM"
+  },
+  {
+    "cve_ley": 68,
+    "descripcion": "Ley del Banco de México",
+    "siglas": "LBM"
+  },
+  {
+    "cve_ley": 69,
+    "descripcion": "Ley del Impuesto General de Exportación",
+    "siglas": "LIGE"
+  },
+  {
+    "cve_ley": 70,
+    "descripcion": "Reglamento del Banco de México                                                                                                                                                                          ",
+    "siglas": "RBM                 "
+  },
+  {
+    "cve_ley": 71,
+    "descripcion": "Ley del Impuesto Sobre Automóviles Nuevos",
+    "siglas": "LISAN"
+  },
+  {
+    "cve_ley": 72,
+    "descripcion": "Ley Federal de Armas de Fuego y Explosivos",
+    "siglas": "LFAFE"
+  },
+  {
+    "cve_ley": 73,
+    "descripcion": "Ley Federal de los Trabajadores al Servicio del Estado",
+    "siglas": "ISSSTE"
+  },
+  {
+    "cve_ley": 74,
+    "descripcion": "Ley Orgánica del Ejército y Fuerza Aerea Mexicanos",
+    "siglas": "LOEFAM"
+  },
+  {
+    "cve_ley": 75,
+    "descripcion": "Reglamento de Afiliación",
+    "siglas": "RA"
+  },
+  {
+    "cve_ley": 76,
+    "descripcion": "Ley Orgánica de la Procuraduría General de la República",
+    "siglas": "PGR"
+  },
+  {
+    "cve_ley": 77,
+    "descripcion": "Reglamento del Recurso de inconformidad",
+    "siglas": "RRI"
+  },
+  {
+    "cve_ley": 78,
+    "descripcion": "Ley de la Comisión Nacional Bancaria y de Valores",
+    "siglas": "LCNBV"
+  },
+  {
+    "cve_ley": 79,
+    "descripcion": "Ley del Mercado de Valores",
+    "siglas": "LMV"
+  },
+  {
+    "cve_ley": 80,
+    "descripcion": "Reglamento del Seguro de Salud para la Familia",
+    "siglas": "RSSF"
+  },
+  {
+    "cve_ley": 81,
+    "descripcion": "Reglamento Federal de Seguridad e Higiene y Medio Ambiente en el Trabajo",
+    "siglas": "RFSHMAT"
+  },
+  {
+    "cve_ley": 82,
+    "descripcion": "Reglamento Interior de la Comisión Nacional del Sistema de Ahorro para el Retiro",
+    "siglas": "RICNSAR"
+  },
+  {
+    "cve_ley": 83,
+    "descripcion": "Reglamento interior de la Secretaría del Trabajo y Previsión Social",
+    "siglas": "RISTPS"
+  },
+  {
+    "cve_ley": 84,
+    "descripcion": "Reglamento Interior del SAT",
+    "siglas": "RIS"
+  },
+  {
+    "cve_ley": 7,
+    "descripcion": "Ley General de la Salud",
+    "siglas": "LGS"
+  },
+  {
+    "cve_ley": 85,
+    "descripcion": "Ley General de Instituciones y Sociedades Mutualistas de Seguros",
+    "siglas": "LGISMS"
+  },
+  {
+    "cve_ley": 86,
+    "descripcion": "Ley Federal del Derecho de Autor",
+    "siglas": "LFDA"
+  },
+  {
+    "cve_ley": 900,
+    "descripcion": "Ley de Inversión Extranjera",
+    "siglas": "LIE"
+  },
+  {
+    "cve_ley": 901,
+    "descripcion": "Reglamento de Tránsito de Carreteras Federales",
+    "siglas": "RTCF"
+  },
+  {
+    "cve_ley": 902,
+    "descripcion": "Ley Minera",
+    "siglas": "LMIN"
+  },
+  {
+    "cve_ley": 903,
+    "descripcion": "Ley del Servicio Público de Energía Eléctrica",
+    "siglas": "LSPEE"
+  },
+  {
+    "cve_ley": 904,
+    "descripcion": "Ley de Adquisiciones, Arrendamientos y Servicios del Sector Público",
+    "siglas": "LAASSP"
+  },
+  {
+    "cve_ley": 999,
+    "descripcion": "Otras",
+    "siglas": "Otras"
+  },
+  {
+    "cve_ley": 905,
+    "descripcion": "Código Federal de Procedimientos Penales",
+    "siglas": "CFPP"
+  },
+  {
+    "cve_ley": 87,
+    "descripcion": "Ley de Protección y Defensa al Usuario de Servicios Financieros",
+    "siglas": "LPDUSF"
+  },
+  {
+    "cve_ley": 88,
+    "descripcion": "Ley para la Inscripción de vehículos de procedencia extranjera",
+    "siglas": "LIVPE"
+  },
+  {
+    "cve_ley": 89,
+    "descripcion": "Ley Federal de Responsabilidad Patrimonial del Estado",
+    "siglas": "LFRPE"
+  },
+  {
+    "cve_ley": 90,
+    "descripcion": "Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental",
+    "siglas": "LFTAIPG"
+  }
+]

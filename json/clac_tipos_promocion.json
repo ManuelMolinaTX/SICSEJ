@@ -1,0 +1,1955 @@
+[
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 1,
+    "descripcion": "Escrito de cumplimiento de requerimiento por demanda o anexos irregular",
+    "siglas": "11"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 2,
+    "descripcion": "Escrito de comparecencia a juicio del tercer interesado",
+    "siglas": "12"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 3,
+    "descripcion": "Escrito de solicitud de suspensión de la resolución impugnada (208BIS)",
+    "siglas": "13"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 4,
+    "descripcion": "Escrito de desahogo de prevención, otorgando la garantía solicitada para la suspensión",
+    "siglas": "14"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 5,
+    "descripcion": "Escrito y oficio para solicitar la revocación de la suspensión",
+    "siglas": "15"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 6,
+    "descripcion": "Escrito y oficio de solicitud de modificación de la suspensión",
+    "siglas": "16"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 7,
+    "descripcion": "Escrito u oficio de contestación de demanda",
+    "siglas": "17"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 8,
+    "descripcion": "Escrito y oficio de desahogo de prevención a la contestación",
+    "siglas": "18"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 9,
+    "descripcion": "Escrito de desahogo de vista respecto de la extemporaneidad de la demanda planteada por la autoridad",
+    "siglas": "19"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 10,
+    "descripcion": "Escrito de ampliación de demanda",
+    "siglas": "110"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 11,
+    "descripcion": "Escrito de desahogo de prevención a la ampliación",
+    "siglas": "111"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 12,
+    "descripcion": "Oficio de contestación a la ampliación de demanda",
+    "siglas": "112"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 13,
+    "descripcion": "Escrito de presentación de pruebas",
+    "siglas": "113"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 14,
+    "descripcion": "Escrito por el cual se desahoga un requerimiento en materia de desahogo de pruebas",
+    "siglas": "114"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 15,
+    "descripcion": "Escrito u oficio por el cual las partes proponen perito",
+    "siglas": "115"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 16,
+    "descripcion": "Escrito de sustitución de perito de las partes",
+    "siglas": "116"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 17,
+    "descripcion": "Perito solicita plazo para ampliar su dictamen pericial",
+    "siglas": "117"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 18,
+    "descripcion": "Promoción de incidente de incompetencia de la sala por razón del territorio",
+    "siglas": "118"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 19,
+    "descripcion": "Escrito de cumplimiento del requerimiento para la admisión de un incidente",
+    "siglas": "119"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 20,
+    "descripcion": "Solicitud de acumulación de juicios",
+    "siglas": "120"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 21,
+    "descripcion": "Promoción del incidente de nulidad de notificaciones",
+    "siglas": "121"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 901,
+    "descripcion": "Promoción que cumplimenta una vista dada por la sala",
+    "siglas": "122"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 23,
+    "descripcion": "Incidente de interrupción del juicio por causa de muerte, disolución, incapacidad o declaratoria de ausencia",
+    "siglas": "123"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 24,
+    "descripcion": "Incidente de recusación de magistrado",
+    "siglas": "124"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 25,
+    "descripcion": "Incidente de recusación del perito de la sala",
+    "siglas": "125"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 26,
+    "descripcion": "Escrito de excusa de perito",
+    "siglas": "126"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 27,
+    "descripcion": "Incidente de suspensión de la ejecución",
+    "siglas": "127"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 28,
+    "descripcion": "Incidente de falsedad de documentos",
+    "siglas": "128"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 29,
+    "descripcion": "Incidente de reposición de autos",
+    "siglas": "129"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 924,
+    "descripcion": "Oficio en el cual se solicita copia de la resolución impugnada",
+    "siglas": "1924"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 31,
+    "descripcion": "Escrito de cumplimiento de la vista del recurso de reclamación",
+    "siglas": "131"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 32,
+    "descripcion": "Promoción contestando la vista del recurso de reclamación",
+    "siglas": "132"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 33,
+    "descripcion": "Escrito u oficio de alegatos",
+    "siglas": "133"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 34,
+    "descripcion": "Escrito de designación de personas autorizadas para recibir notificaciones",
+    "siglas": "134"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 35,
+    "descripcion": "Escrito u oficio de designación de delegados",
+    "siglas": "135"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 36,
+    "descripcion": "Escrito de cambio, sustitución o nombre de representantes legales",
+    "siglas": "136"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 37,
+    "descripcion": "Solicitud de copias certificadas",
+    "siglas": "137"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 38,
+    "descripcion": "Promoción de cambio de domicilio",
+    "siglas": "138"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 39,
+    "descripcion": "Contestación a la solicitud de informe rendido por la oficina de correos",
+    "siglas": "139"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 40,
+    "descripcion": "Exhorto para su tramitación, de una sala foránea",
+    "siglas": "140"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 41,
+    "descripcion": "Instancia de excitativa de justicia",
+    "siglas": "141"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 42,
+    "descripcion": "Instancia de aclaración de sentencia",
+    "siglas": "142"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 43,
+    "descripcion": "Solicitud de declaración de ejecutoriedad de la sentencia definitiva",
+    "siglas": "143"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 44,
+    "descripcion": "Escrito de solicitud para que quede firme la sentencia",
+    "siglas": "144"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 902,
+    "descripcion": "Oficio por el cual una sala envía el expediente solicitado como prueba",
+    "siglas": "145"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 46,
+    "descripcion": "Informe de la autoridad al requerimiento formulado en la instancia de queja",
+    "siglas": "146"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 47,
+    "descripcion": "Solicitud de copia certificada de sentencia definitiva",
+    "siglas": "147"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 48,
+    "descripcion": "Solicitud de devolución de documentos",
+    "siglas": "148"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 49,
+    "descripcion": "Solicitud de devolución de expediente",
+    "siglas": "149"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 50,
+    "descripcion": "Solicitud de devolución de poder notarial",
+    "siglas": "150"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 51,
+    "descripcion": "Oficio por el cual se devuelve el expediente atraído, resuelto por la sala superior",
+    "siglas": "151"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 903,
+    "descripcion": "Oficio comunicando el cumplimiento de la sentencia por la autoridad demandada",
+    "siglas": "152"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 53,
+    "descripcion": "Oficio en el que se acusa recibo de un expediente o de una prueba",
+    "siglas": "153"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 54,
+    "descripcion": "Oficio de devolución de un expediente",
+    "siglas": "154"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 55,
+    "descripcion": "Oficio de devolución de una prueba",
+    "siglas": "155"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 56,
+    "descripcion": "Oficio de remisión de expediente por incompetencia de la sala de origen",
+    "siglas": "156"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 57,
+    "descripcion": "Oficio de comunicación de la aceptación de competencia a la sala origen",
+    "siglas": "157"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 904,
+    "descripcion": "Oficio de recepción de un exhorto",
+    "siglas": "158"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 998,
+    "descripcion": "Sin captura",
+    "siglas": "1998"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 999,
+    "descripcion": "Otros",
+    "siglas": "1999"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 1,
+    "descripcion": "Demanda de amparo",
+    "siglas": "21"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 2,
+    "descripcion": "Escrito de cumplimiento de requerimiento de copias de la demanda de amparo para correr traslado",
+    "siglas": "22"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 3,
+    "descripcion": "Escrito que solicita la suspensión del acto reclamado",
+    "siglas": "23"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 4,
+    "descripcion": "Ejecutoria que desecha amparo",
+    "siglas": "24"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 5,
+    "descripcion": "Ejecutoria que sobresee el juicio de amparo",
+    "siglas": "25"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 6,
+    "descripcion": "Ejecutoria que niega amparo",
+    "siglas": "26"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 7,
+    "descripcion": "Ejecutoria que concede amparo",
+    "siglas": "27"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 8,
+    "descripcion": "Oficio de radicación de la demanda de amparo en el tribunal colegiado",
+    "siglas": "28"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 9,
+    "descripcion": "Oficio de radicación de la demanda de amparo en el juzgado de distrito",
+    "siglas": "29"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 922,
+    "descripcion": "Oficio de comunicación del acuerdo de desechamiento del amparo",
+    "siglas": "210"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 11,
+    "descripcion": "Oficio mediante el cual se devuelve el expediente enviado por la sala como prueba en el juicio de amparo",
+    "siglas": "211"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 923,
+    "descripcion": "Oficio que envía el Tribunal Colegiado para que en el plazo de 3, 5 y 30 días se dé cumplimiento a su ejecutoria",
+    "siglas": "212"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 13,
+    "descripcion": "Oficio por el cual el juzgado de distrito o el tribunal colegiado requiere y otorga plazo de cumplimiento a su ejecutoria",
+    "siglas": "213"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 999,
+    "descripcion": "Otros",
+    "siglas": "2999"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 998,
+    "descripcion": "Sin captura",
+    "siglas": "2998"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 1,
+    "descripcion": "Recurso de revisión",
+    "siglas": "31"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 2,
+    "descripcion": "Cumplimiento de requerimiento de copias del recurso de revisión para correr traslado",
+    "siglas": "32"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 3,
+    "descripcion": "Ejecutoria que sobresee el recurso de revisión",
+    "siglas": "33"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 4,
+    "descripcion": "Ejecutoria que confirma sentencia en revisión",
+    "siglas": "34"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 5,
+    "descripcion": "Ejecutoria que revoca sentencia en revisión",
+    "siglas": "35"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 6,
+    "descripcion": "Ejecutoria que desecha recurso de revisión",
+    "siglas": "36"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 7,
+    "descripcion": "Oficio de radicación del recurso de revisión en el tribunal colegiado",
+    "siglas": "37"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 936,
+    "descripcion": "Oficio que comunica el acuerdo de desechamiento del recurso de revisión",
+    "siglas": "38"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 998,
+    "descripcion": "Sin captura",
+    "siglas": "3998"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 999,
+    "descripcion": "Otros",
+    "siglas": "3999"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 1,
+    "descripcion": "Instancia de queja",
+    "siglas": "41"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 943,
+    "descripcion": "Escrito de cumplimiento de requerimiento para la admisión de la queja",
+    "siglas": "42"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 3,
+    "descripcion": "Oficio de remisión de expediente a la oficialía de partes para la tramitación de la queja como demanda nueva",
+    "siglas": "43"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 944,
+    "descripcion": "Oficio de informe de la autoridad en relación al cumplimiento dado a la queja",
+    "siglas": "44"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 998,
+    "descripcion": "Sin captura",
+    "siglas": "4998"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 999,
+    "descripcion": "Otros",
+    "siglas": "4999"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 905,
+    "descripcion": "Se rinde informe Incidente de Suspensión",
+    "siglas": "59"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 906,
+    "descripcion": "Oficio en el cual la Autoridad devuelve un documento",
+    "siglas": "60"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 907,
+    "descripcion": "Informe rendido por el Servicio Postal Mexicano",
+    "siglas": "61"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 14,
+    "descripcion": "Oficio por el cual el tribunal colegiado requiere al presidente de la sala para que acredite el cumplimiento de la ejecutoria, remitiendo copia de la misma y de su notificación",
+    "siglas": "214"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 908,
+    "descripcion": "Oficio por el cual se comunica la aceptación de la competencia",
+    "siglas": "162"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 924,
+    "descripcion": "Oficio del Tribunal Colegiado en el cual la Autoridad interpone Recurso de Revisión en Contra de la Sentencia del Colegiado",
+    "siglas": "215"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 925,
+    "descripcion": "Oficio del Tribunal Colegiado en el cual la Autoridad interpone Recurso de Revisión en Contra de la Sentencia del Juzgado",
+    "siglas": "216"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 926,
+    "descripcion": "Oficio del Tribunal Colegiado en el que se informa el cumplimiento de una vista dada a una Sala",
+    "siglas": "217"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 927,
+    "descripcion": "Oficio del Tribunal Colegiado en el que informa el Estado Procesal",
+    "siglas": "218"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 928,
+    "descripcion": "Oficio del Juzgado del Distrito en el que informa el Estado Procesal",
+    "siglas": "219"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 909,
+    "descripcion": "Oficio en el que se solicita se regularice el procedimiento",
+    "siglas": "163"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 937,
+    "descripcion": "Oficio del Tribunal Colegiado en el que informa el Estado Procesal",
+    "siglas": "39"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 910,
+    "descripcion": "Oficio en el que acusa recibo la Secretaría General de Acuerdos",
+    "siglas": "164"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 911,
+    "descripcion": "Oficio en el que se comunica la Facultad de Atracción",
+    "siglas": "165"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 912,
+    "descripcion": "Remisión de Documentos de Autoridad a Autoridad",
+    "siglas": "RDAA"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 929,
+    "descripcion": "Escrito de Aclaración de la Demanda de Amparo",
+    "siglas": "220"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 938,
+    "descripcion": "Oficio del Tribunal Colegiado en el cual remite los autos",
+    "siglas": "310"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 913,
+    "descripcion": "Escrito de Desistimiento de la parte Actora",
+    "siglas": "167"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 914,
+    "descripcion": "Oficio en el que se solicita información del Estado Procesal",
+    "siglas": "168"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 69,
+    "descripcion": "Oficio de remisión de expediente a la oficialía de partes para la tramitación de la queja como demanda nueva",
+    "siglas": "169"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 915,
+    "descripcion": "Escrito en el cual el Perito rinde informe",
+    "siglas": "170"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 930,
+    "descripcion": "Oficio en el que manifiesta el Tercer perjudicado",
+    "siglas": "221"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 916,
+    "descripcion": "Devolución de correspondencia del Servicio Postal Mexicano",
+    "siglas": "171"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 939,
+    "descripcion": "Manifestaciones del Tercer interesado",
+    "siglas": "311"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 931,
+    "descripcion": "Escrito en el que se solicita la suspensión de la ejecución",
+    "siglas": "222"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 932,
+    "descripcion": "Oficio en el cual el Tribunal Colegiado remite expediente",
+    "siglas": "223"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 942,
+    "descripcion": "Oficio de Devolución de Documentos",
+    "siglas": "DEVEXP"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 917,
+    "descripcion": "Escrito en el que se solicitael cumplimiento de la Sentencia",
+    "siglas": "173"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 940,
+    "descripcion": "Oficio del Tribunal Colegiado en el que solicita copia certificada de la Sentencia",
+    "siglas": "313"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 918,
+    "descripcion": "Desahogo de Vista respecto del cumplimiento de la Sentencia",
+    "siglas": "174"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 941,
+    "descripcion": "Oficio que envía el Tribunal Colegiado para que en el plazo de 3, 5 y 30 días se dé cumplimiento a su ejecutoria",
+    "siglas": "314"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 933,
+    "descripcion": "Oficio del Tribunal Colegiado en el que solicita se emita resolución",
+    "siglas": "223"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 919,
+    "descripcion": "Escrito u Oficio en el cual se realizan Manifestaciones Diversas",
+    "siglas": "175"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 920,
+    "descripcion": "Escrito de Interposición de aclaración de Sentencia",
+    "siglas": "176"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 934,
+    "descripcion": "Oficio por el cual el Colegiado requiere acuerdo sobre suspensión del acto reclamado",
+    "siglas": "225"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 921,
+    "descripcion": "Oficio en el cual una Sala solicita expediente para que obre como prueba",
+    "siglas": "177"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 942,
+    "descripcion": "Oficio por el cual el Colegiado se declara incompetente en razón de haber Recurso de Revisión previo",
+    "siglas": "315"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 935,
+    "descripcion": "Oficio de interposición de la revisión al amparo"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 900,
+    "descripcion": "Oficio en el que se solicita se acuse de recibo lo enviado",
+    "siglas": "900"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 900,
+    "descripcion": "Temporal",
+    "siglas": "900"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 22,
+    "descripcion": "Escrito u oficio de contestación a la vista otorgada en el incidente de nulidad de notificaciones",
+    "siglas": "22"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 45,
+    "descripcion": "Instancia de Queja por violación a la Suspensión o Medida Cautelar decretada (Art. 58, fracc. III de la LFPCA)",
+    "siglas": "45"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 52,
+    "descripcion": "Oficio de informes del estado procesal de un juicio",
+    "siglas": "52"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 58,
+    "descripcion": "Oficio de la recepción de expedientes y copia de la interlocutoria de un incidente",
+    "siglas": "58"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 59,
+    "descripcion": "Oficio por el cual la sala envia un expediente para su acumulación",
+    "siglas": "59"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 60,
+    "descripcion": "Oficio por el cual se comunica la procedencia de la acumulación",
+    "siglas": "60"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 61,
+    "descripcion": "Oficio por el cual se devuelve el expediente por improcedencia de la acumulación",
+    "siglas": "61"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 62,
+    "descripcion": "Oficio por el cual la autoridad administrativa envia expediente administrativo",
+    "siglas": "62"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 63,
+    "descripcion": "Exhorto devuelto por una sala debidamente diligenciado",
+    "siglas": "63"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 64,
+    "descripcion": "Oficio de informe de la autoridad ejecutora rendido en el incidente de suspensión de la ejecución",
+    "siglas": "64"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 65,
+    "descripcion": "Oficio de contestación a un requerimiento hecho por una sala",
+    "siglas": "65"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 66,
+    "descripcion": "Oficio por el cual una autoridad demandada comunica a la sala el cumplimiento dado a su resolución definitiva",
+    "siglas": "66"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 67,
+    "descripcion": "Oficio por el cual se rinde informe del estado procesal de un juicio",
+    "siglas": "67"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 68,
+    "descripcion": "Oficio de devolución de un juicio",
+    "siglas": "68"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 86,
+    "descripcion": "Oficio por el cual se acuse recibo de la devolución de un expediente remitido por el juez de distrito o tribunal colegiado",
+    "siglas": "30"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 71,
+    "descripcion": "Exhorto enviado a otra sala para su desahogo",
+    "siglas": "71"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 73,
+    "descripcion": "Oficio de devolución de exhorto",
+    "siglas": "73"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 941,
+    "descripcion": "Oficio por el que el Tribunal Colegiado requiere a la Sala informes sobre el cumplimiento dado a la ejecutoria",
+    "siglas": "2941"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 75,
+    "descripcion": "Oficio de comunicación de aceptación de competencia a la sala superior",
+    "siglas": "75"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 74,
+    "descripcion": "Oficio de notificación del incidente de incompetencia, a la sala superior",
+    "siglas": "30"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 76,
+    "descripcion": "Oficio por el cual se envia el escrito de recusación y el informe respectivo a la sala superior",
+    "siglas": "30"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 78,
+    "descripcion": "Oficio por el cual se pide a una autoridad (no demandada, en el juicio) una probanza",
+    "siglas": "78"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 79,
+    "descripcion": "Oficio de imposición de multa a una autoridad omisa",
+    "siglas": "79"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 80,
+    "descripcion": "Oficio de remisión de un expediente en amparo",
+    "siglas": "80"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 81,
+    "descripcion": "Oficio de remisión de exhorto para el desahogo de una testimonial o pericial fuera de la sede de la sala",
+    "siglas": "81"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 82,
+    "descripcion": "Oficio por el cual se remite una demanda de amparo con informe justificado",
+    "siglas": "82"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 83,
+    "descripcion": "Oficio por el cual se remite un recurso de revision",
+    "siglas": "83"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 84,
+    "descripcion": "Oficio por el cual se rinde el informe previo y justificado en amparo indirecto",
+    "siglas": "84"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 85,
+    "descripcion": "Oficio que comunica al colegiado que se deja sin efectos la sentencia en cumplimiento de una ejecutoria de amparo (o de revision)",
+    "siglas": "85"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 77,
+    "descripcion": "Oficio por el cual se envia el expediente atraído a la sala superior",
+    "siglas": "30"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 87,
+    "descripcion": "Oficio por el cual se comunica el cumplimiento de la ejecutoria enviándole copia de la sentencia de cumplimiento",
+    "siglas": "87"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 946,
+    "descripcion": "Oficio del Tribunal Colegiado solicita acuse recibo",
+    "siglas": "3946"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 925,
+    "descripcion": "Oficio de designación de perito tercero en discordia",
+    "siglas": "ODPTD"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 942,
+    "descripcion": "Oficio en el que solicita copia de la ejecutoria",
+    "siglas": "2942"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 10,
+    "descripcion": "Oficio de juzgado de distrito requiriendo informe previo y/o justificado",
+    "siglas": "10"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 12,
+    "descripcion": "Oficio que envia el juez de distrito o el tribunal colegiado para que se de cumplimiento a la ejecutoria en el termino de 24 horas",
+    "siglas": "12"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 8,
+    "descripcion": "Oficio por el cual se devuelve el expediente enviado como prueba en la revision",
+    "siglas": "8"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 9,
+    "descripcion": "Oficio por el cual se requiere y se otorga plazo para que se de cumplimiento a la ejecución de revision",
+    "siglas": "9"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 2,
+    "descripcion": "Oficio por el cual la autoridad rinde su informe respecto de la instancia de queja",
+    "siglas": "2"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 940,
+    "descripcion": "Oficio del Tribunal Colegiado de 24 Horas",
+    "siglas": "9312"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 922,
+    "descripcion": "Devolución de notificación personal no realizada",
+    "siglas": "922"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 923,
+    "descripcion": "Oficio en el que informa el cumplimiento de sentencia",
+    "siglas": "1923"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 941,
+    "descripcion": "Oficio en el cual una sala solicita un expediente para que obre como prueba",
+    "siglas": "1941"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 945,
+    "descripcion": "Manifestaciones diversas respecto del recurso de revisión",
+    "siglas": "3945"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 30,
+    "descripcion": "Recurso de reclamación",
+    "siglas": "30"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 70,
+    "descripcion": "Oficio por el cual se envia el expediente como prueba a otra sala",
+    "siglas": "30"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 72,
+    "descripcion": "Oficio de acuse de recibo de una prueba o de su expediente",
+    "siglas": "30"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 947,
+    "descripcion": "Oficio de termino de 24 Horas",
+    "siglas": "OTCSAT"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 943,
+    "descripcion": "Oficio en el cual la autoridad revoca acto impugnado",
+    "siglas": "1943"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 944,
+    "descripcion": "Oficio en el cual se solicita la remisión de un expediente",
+    "siglas": "1944"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 943,
+    "descripcion": "Oficio por el cual se requiere se remita expediente",
+    "siglas": "2943"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 945,
+    "descripcion": "Oficio del Colegiado en el cual admite el Recurso de Queja en amparo",
+    "siglas": "2945"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 946,
+    "descripcion": "Oficio del Colegiado que resuelve la Queja en Amparo",
+    "siglas": "2946"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 947,
+    "descripcion": "Oficio que envía el Juzgado de Distrito para que en el plazo de 3, 5 y 30 días se dé cumplimiento a su ejecutoria",
+    "siglas": "2947"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 945,
+    "descripcion": "Oficio por el cual rinde informe la oficialía de Partes",
+    "siglas": "1945"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 31,
+    "descripcion": "Ejecutoria que determina la competencia de este Tribunal para conocer de un asunto",
+    "siglas": "231"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 96,
+    "descripcion": "Oficio genérico",
+    "siglas": "196"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 580,
+    "descripcion": "Instancia genérica",
+    "siglas": "158"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 660,
+    "descripcion": "Oficio de solicitud de devolución de un juicio",
+    "siglas": "166"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 946,
+    "descripcion": "Manifestaciones del Tercer Interesado",
+    "siglas": "1946"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 88,
+    "descripcion": "Oficio por el cual una sala solicita un expediente para su acumulación",
+    "siglas": "OSolAcum"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 947,
+    "descripcion": "Oficio por el cual se rinde informe justificado de una queja en amparo",
+    "siglas": "47"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 945,
+    "descripcion": "Escrito por el cual se promueve el desistimiento de la queja",
+    "siglas": "45"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 15,
+    "descripcion": "Oficio del Tribunal Colegiado de 24hrs. con Ejecutoria que concede amparo",
+    "siglas": "2948"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 10,
+    "descripcion": "Oficio del Tribunal Colegiado de 24hrs. con Ejecutoria que revoca sentencia en revisión",
+    "siglas": "3948"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 89,
+    "descripcion": "Oficio por el cual Sala Superior remite expediente para la reposición de procedimiento",
+    "siglas": "189"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 946,
+    "descripcion": "Oficio que comunica el acuerdo de desechamiento de la Queja",
+    "siglas": "4946"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 90,
+    "descripcion": "Oficio de remisión de expedientes por apertura de nuevas salas",
+    "siglas": "190"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 948,
+    "descripcion": "Escrito u oficio que determina la competencia de este Tribunal para conocer de un asunto",
+    "siglas": "EOCT"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 97,
+    "descripcion": "Escrito u oficio en el cual se revocan autorizados."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 98,
+    "descripcion": "Escrito u oficio en el cual se presentan pruebas supervenientes."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 99,
+    "descripcion": "Escrito u oficio en el cual se promueve objeción de pruebas."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 100,
+    "descripcion": "Escrito u oficio de presentación de interrogatorio."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 101,
+    "descripcion": "Escrito u oficio en el cual una Sala solicita se decline la competencia."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 102,
+    "descripcion": "Escrito u oficio en el cual se devuelven documentos indebidamente notificados."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 103,
+    "descripcion": "Escrito u oficio por el cual se da cumplimiento al requerimiento de oposición a la publicación de datos personales."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 104,
+    "descripcion": "Oficio en el cual la Sala Superior informa la aceptación de la competencia especial."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 105,
+    "descripcion": "Oficio por el cual la Sala Superior devuelve expediente."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 106,
+    "descripcion": "Oficio por el cual la Sala Superior comunica que no se ejerce la facultad de atracción."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 107,
+    "descripcion": "Oficio de Colegiado por el cual notifica la incompetencia por materia de este Tribunal."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 108,
+    "descripcion": "Oficio de Colegiado por el cual notifica la competencia por materia de este Tribunal."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 109,
+    "descripcion": "Oficio por el cual una sala remite promociones a otra Sala a través de la Oficialía de Partes."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 110,
+    "descripcion": "Oficio a través del cual el contralor interno de este Tribunal propone peritos."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 111,
+    "descripcion": "Escrito mediante el cual el perito solicita el pago de sus honorarios."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 112,
+    "descripcion": "Escrito mediante el cual se solicitan copias simples."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 113,
+    "descripcion": "Ejecutoria que resuelve el conflicto de competencia."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 114,
+    "descripcion": "Oficio en el cual se devuelve un exhorto sin diligenciar."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 115,
+    "descripcion": "Oficio del Colegiado/Juzgado en el cual se solicitan copias del expediente."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 116,
+    "descripcion": "Oficio por el que se solicita acuse recibo del exhorto."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 117,
+    "descripcion": "Escrito u Oficio de oposición en relación a la publicación de sus datos personales."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 118,
+    "descripcion": "Escrito u Oficio de autorización en relación a la publicación de sus datos personales."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 119,
+    "descripcion": "Oficio por el cual una autoridad (no demandada en el juicio) cumplimenta un requerimiento."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 32,
+    "descripcion": "Oficio del Colegiado por el que se solicita informe en el término de 3 días."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 33,
+    "descripcion": "Oficio del Colegiado por el que en el término de 3 días solicita el envío de las constancias."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 34,
+    "descripcion": "Oficio en el que se tiene por cumplida la Ejecutoria en el Amparo."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 35,
+    "descripcion": "Oficio del Juzgado para que en el término de 24 horas se rinda informe previo."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 36,
+    "descripcion": "Oficio del Juzgado para que en el término de 5 días se rinda informe justificado."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 37,
+    "descripcion": "Oficio de Juzgado en el cual informa el diferimiento de audiencia."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 38,
+    "descripcion": "Oficio en el que el Colegiado se declara incompetente y remita al Juzgado de Distrito."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 39,
+    "descripcion": "Oficio del Juzgado de Distrito en el cual se informa que se niega la suspensión definitiva."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 40,
+    "descripcion": "Oficio en el cual informa la resolución de la Suprema Corte de Justicia al Tribunal Federal de Justicia Fiscal y Administrativa."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 41,
+    "descripcion": "Oficio en el cual informa que ha causado estado la Ejecutoria."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 42,
+    "descripcion": "Oficio del Juzgado de Distrito dando término de 3 días para cumplimiento de requerimiento."
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 43,
+    "descripcion": "Oficio del Juzgado de Distrito dando término de 24 horas para cumplimiento de requerimiento."
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 11,
+    "descripcion": "Oficio de los Colegiados en el cual deja sin materia el Recurso de Revisión."
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 12,
+    "descripcion": "Oficio en el que se comunica la baja de Recurso de Revisión."
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 13,
+    "descripcion": "Oficio en el cual se informa que se ha dado debido cumplimiento a la ejecutoria."
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 14,
+    "descripcion": "Oficio en el cual se informa se envía el Recurso de Revisión a la Suprema Corte de Justicia."
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 15,
+    "descripcion": "Oficio en el cual informa que ha causado estado la Ejecutoria."
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 120,
+    "descripcion": "Incidente de solicitud de indemnización de daños y perjuicios"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 121,
+    "descripcion": "Promoción de desistimiento de una prueba"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 122,
+    "descripcion": "Promoción en donde se está desahogando la vista respecto de la prueba superveniente"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 123,
+    "descripcion": "Promoción en donde el perito solicita prórroga para rendir su dictamen"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 124,
+    "descripcion": "Promoción de desistimiento del recurso de reclamación"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 125,
+    "descripcion": "Promoción de presentación de planilla del Perito Tercero"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 948,
+    "descripcion": "Manifestaciones diversas con respecto al Amparo",
+    "siglas": "MDAMP"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 1,
+    "descripcion": "Escrito por el cual se reclama la indemnización por Responsabilidad Patrimonial del Estado"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 2,
+    "descripcion": "Escrito u Oficio por el que se cumplimenta requerimiento dentro del Procedimiento de Indemnización por Responsabilidad Patrimonial del Estado"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 3,
+    "descripcion": "Escrito de desistimiento de la reclamación de indemnización por Responsabilidad Patrimonial del Estado"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 4,
+    "descripcion": "Oficio por el que la autoridad responsable rinde informe en relación a la reclamación de Indemnización por Responsabilidad Patrimonial del Estado"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 5,
+    "descripcion": "Escrito y Oficio por el que se ofrecen pruebas supervenientes dentro del procedimiento de indemnización por Responsabilidad Patrimonial del Estado"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 6,
+    "descripcion": "Escrito u Oficio de desahogo de vista"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 7,
+    "descripcion": "Escrito u Oficio por el que se interpone un incidente dentro del procedimiento de indemnización por Responsabilidad Patrimonial del Estado"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 8,
+    "descripcion": "Solicitud de Impedimento, Excusas o Recusaciones"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 9,
+    "descripcion": "Solicitud de Acumulación de Expedientes Administrativos de Reclamación"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 10,
+    "descripcion": "Escrito por el que se rinde dictamen pericial dentro del procedimiento de indemnización por Responsabilidad Patrimonial del Estado"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 11,
+    "descripcion": "Escrito por el que se rinden alegatos dentro del procedimiento de indemnización por Responsabilidad Patrimonial del Estado"
+  },
+  {
+    "cve_promocion": 5,
+    "cve_tipopromocion": 12,
+    "descripcion": "Solicitud de declaración de ejecutoriedad de la resolución"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 130,
+    "descripcion": "Escrito de solicitud de Medidas Cautelares"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 131,
+    "descripcion": "Escrito u Oficio donde se presenta un hecho superveniente en relación con Incidente de medida cautelar"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 132,
+    "descripcion": "Escrito u Oficio en donde se solicita indemnización o pago de costas"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 133,
+    "descripcion": "Escrito de solicitud de suspensión de la resolución impugnada (Art. 28 de LFPCA)"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 134,
+    "descripcion": "Recurso de reclamación (Suspensión Provisional)",
+    "siglas": "1-134"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 135,
+    "descripcion": "Recurso de reclamación (Suspensión Definitiva)",
+    "siglas": "1-135"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 150,
+    "descripcion": "Escrito mediante el cual el Perito rinde su dictamen.",
+    "siglas": "1150"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 151,
+    "descripcion": "Escrito mediante el cual el Perito tercero en discordia rinde su dictamen.",
+    "siglas": "1151"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 152,
+    "descripcion": "Escrito por el cual se solicita informes de Medidas Cautelares.",
+    "siglas": "1152"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 153,
+    "descripcion": "Oficio solicitando informe de Medidas Cautelares.",
+    "siglas": "1153"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 154,
+    "descripcion": "Escrito de solicitud de Constancias de Notificación.",
+    "siglas": "1154"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 155,
+    "descripcion": "Oficio por el cual una Sala o Autoridad solicita la remisión de documentos.",
+    "siglas": "1155"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 156,
+    "descripcion": "Oficio por el cual una Sala remite copia de la sentencia en la que se resolvió la acumulación.",
+    "siglas": "1156"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 157,
+    "descripcion": "Escrito u oficio mediante el cual se solicita plazo adicional para el cumplimiento de un requerimiento.",
+    "siglas": "1157"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 158,
+    "descripcion": "Escrito u oficio mediante el cual se solicita que se emplace a una autoridad que no fue emplazada.",
+    "siglas": "1158"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 159,
+    "descripcion": "Oficio por el cual la Sala Superior requiere informe sobre cumplimiento de la ejecutoria de amparo en término de 24 hrs.",
+    "siglas": "1159"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 160,
+    "descripcion": "Escrito de apersonamiento de nuevo apoderado legal.",
+    "siglas": "1160"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 161,
+    "descripcion": "Oficio recordatorio de una Solicitud de una Sala a otra.",
+    "siglas": "1161"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 162,
+    "descripcion": "Escrito mediante el cual se desiste parcialmente de los créditos impugnados.",
+    "siglas": "1162"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 163,
+    "descripcion": "Oficio por el cual la Autoridad solicita la causal de improcedencia y sobreseimiento.",
+    "siglas": "1163"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 164,
+    "descripcion": "Escrito mediante el cual el perito solicita que la sala requiera a las partes los documentos para llevar acabo el peritaje.",
+    "siglas": "1164"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 165,
+    "descripcion": "Oficio del Colegiado/Juzgado para que en término de 24 horas y 3 días se acuse de recibo.",
+    "siglas": "1165"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 166,
+    "descripcion": "Oficio del Juzgado solicitando informe justificado en término de 24 hrs, 3 y 5 días.",
+    "siglas": "1166"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 167,
+    "descripcion": "Oficio que comunica la radicación en el Tribunal Colegiado del conflicto competencial.",
+    "siglas": "1167"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 168,
+    "descripcion": " Escrito u oficio mediante el cual se acusa la rebeldía.",
+    "siglas": "1168"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 169,
+    "descripcion": "Oficio del juzgado en el que informa o remite expediente.",
+    "siglas": "1169"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 170,
+    "descripcion": "Escrito mediante el cual se solicita se aperciba a la autoridad para el cumplimiento de sentencia.",
+    "siglas": "1170"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 171,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando copias certificadas con término de 3 días.",
+    "siglas": "1171"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 172,
+    "descripcion": "Oficio con término de 24 horas de Tribunal Colegiado/Juzgado.",
+    "siglas": "1172"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 173,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado con término de 3 días solicitando acuse de recibo.",
+    "siglas": "1173"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 174,
+    "descripcion": "Oficio en el que se anexa comprobante de pago de copias simples y/o certificadas",
+    "siglas": "1174"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 175,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 15 días.",
+    "siglas": "1175"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 176,
+    "descripcion": "Oficio en el que se acusa de recibo de una promoción.",
+    "siglas": "1176"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 177,
+    "descripcion": "Oficio en el que se acusa de recibo de una promoción.",
+    "siglas": "1177"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 178,
+    "descripcion": "Solicitud de desistimiento de una prueba.",
+    "siglas": "1178"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 179,
+    "descripcion": "Escrito u oficio solicitando prorroga para dar cumplimiento al requerimiento de la Sala.",
+    "siglas": "1179"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 180,
+    "descripcion": "informe rendido por la oficina de Correos de México.",
+    "siglas": "1180"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 50,
+    "descripcion": "Oficio por el cual el Tribunal Colegiado solicita la resolución impugnada de manera electrónica.",
+    "siglas": "250"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 51,
+    "descripcion": "Escrito u oficio mediante el cual se formulan los Alegatos en Amparo.",
+    "siglas": "251"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 52,
+    "descripcion": "Oficio de Colegiado en el que resuelve la suspensión.",
+    "siglas": "252"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 53,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando copias certificadas con término de 3 días.",
+    "siglas": "253"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 54,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando constancias de notificación de la Sentencia Recurrida con término de 3 días.",
+    "siglas": "254"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 55,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando copias certificadas de las constancias de notificación con término de 5 días.",
+    "siglas": "255"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 56,
+    "descripcion": "Amparo en Revisión.",
+    "siglas": "256"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 57,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 24 horas.",
+    "siglas": "257"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 58,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 3 días.",
+    "siglas": "258"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 59,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 5 días.",
+    "siglas": "259"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 60,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 10 días.",
+    "siglas": "260"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 61,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 15 días.",
+    "siglas": "261"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 62,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado con término de 3días.",
+    "siglas": "262"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 63,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado con término de 10 días.",
+    "siglas": "263"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 64,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado con término de 15 días.",
+    "siglas": "264"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 20,
+    "descripcion": "Oficio por el cual el Tribunal Colegiado solicita la resolución impugnada de manera electrónica.",
+    "siglas": "320"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 21,
+    "descripcion": "Escrito u oficio mediante el cual se formulan los Alegatos en Recurso de Revisión.",
+    "siglas": "321"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 22,
+    "descripcion": "Escrito de contestación del Recurso de Revisión.",
+    "siglas": "322"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 23,
+    "descripcion": "Escrito de adhesión al Recurso de Revisión.",
+    "siglas": "323"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 24,
+    "descripcion": "Escrito u oficio mediante el cual se formulan los Alegatos en Revisión.",
+    "siglas": "324"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 25,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando acuse de recibo con término de 3 días.",
+    "siglas": "325"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 26,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 24 horas.",
+    "siglas": "326"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 27,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 3 días.",
+    "siglas": "327"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 28,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 5 días.",
+    "siglas": "328"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 29,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 10 días.",
+    "siglas": "329"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 30,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando informe justificado con término de 15 días.",
+    "siglas": "330"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 31,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando copias certificadas con término de 3 días.",
+    "siglas": "331"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 32,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando constancias de notificación de la Sentencia Recurrida con término de 3 días.",
+    "siglas": "332"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 33,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando copias certificadas de las constancias de notificación con término de 5 días.",
+    "siglas": "333"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 34,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado solicitando se remita pieza postal de la notificación realizada por correo certificado.",
+    "siglas": "334"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 35,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado con término de 3 días.",
+    "siglas": "335"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 36,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado con término de 10 días.",
+    "siglas": "336"
+  },
+  {
+    "cve_promocion": 3,
+    "cve_tipopromocion": 37,
+    "descripcion": "Oficio del Tribunal Colegiado/Juzgado con término de 15 días.",
+    "siglas": "337"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 949,
+    "descripcion": "Recurso de reclamación (artículo 62 de la LFPCA)",
+    "siglas": "1949"
+  },
+  {
+    "cve_promocion": 1,
+    "cve_tipopromocion": 181,
+    "descripcion": "Escrito u oficio por el cual se señala o modifica la dirección del correo electrónico.",
+    "siglas": "1181"
+  },
+  {
+    "cve_promocion": 2,
+    "cve_tipopromocion": 65,
+    "descripcion": "Oficio de Juzgado solicitando informe previo en el termino de 48 horas.",
+    "siglas": "265"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 100,
+    "descripcion": "Oficio por el cual la autoridad rinde su informe respecto de la instancia de queja de Suspensión o Medida Cautelar",
+    "siglas": "4100"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 101,
+    "descripcion": "Escrito de cumplimiento de requerimiento para la admisión de la queja de Suspensión o Medida Cautelar",
+    "siglas": "4101"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 102,
+    "descripcion": "Oficio de informe de la autoridad en relación al cumplimiento dado a la queja de Suspensión o Medida Cautelar",
+    "siglas": "4102"
+  },
+  {
+    "cve_promocion": 4,
+    "cve_tipopromocion": 103,
+    "descripcion": "Escrito por el cual se promueve el desistimiento de la queja de Suspensión o Medida Cautelar",
+    "siglas": "4103"
+  }
+]

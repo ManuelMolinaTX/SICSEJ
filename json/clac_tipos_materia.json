@@ -1,0 +1,427 @@
+[
+  {
+    "cve_tipomateria": 1,
+    "descripcion": "S.H.C.P.",
+    "siglas": "SHCP"
+  },
+  {
+    "cve_tipomateria": 2,
+    "descripcion": "I.N.FO.N.A.V.I.T.",
+    "siglas": "INFONAVIT"
+  },
+  {
+    "cve_tipomateria": 3,
+    "descripcion": "I.M.S.S",
+    "siglas": "IMSS"
+  },
+  {
+    "cve_tipomateria": 4,
+    "descripcion": "Tesorería del Gobierno de ...",
+    "siglas": "TG"
+  },
+  {
+    "cve_tipomateria": 5,
+    "descripcion": "Comisión Nacional del Agua",
+    "siglas": "TG"
+  },
+  {
+    "cve_tipomateria": 6,
+    "descripcion": "Procuraduría Federal del Medio Ambiente",
+    "siglas": "PMA"
+  },
+  {
+    "cve_tipomateria": 7,
+    "descripcion": "Procuraduría Federal del Consumidor",
+    "siglas": "PFC"
+  },
+  {
+    "cve_tipomateria": 8,
+    "descripcion": "Secretaría ...",
+    "siglas": "SE"
+  },
+  {
+    "cve_tipomateria": 9,
+    "descripcion": "Comisión Nacional Bancaria y de Valores",
+    "siglas": "CNBV"
+  },
+  {
+    "cve_tipomateria": 10,
+    "descripcion": "Comisión Nacional de Seguros y Fianzas",
+    "siglas": "CNSF"
+  },
+  {
+    "cve_tipomateria": 11,
+    "descripcion": "Consulta",
+    "siglas": "CO"
+  },
+  {
+    "cve_tipomateria": 12,
+    "descripcion": "Solicitud de Actualización",
+    "siglas": "ACT"
+  },
+  {
+    "cve_tipomateria": 13,
+    "descripcion": "Solicitud de Pago en Parcialidades",
+    "siglas": "SPP"
+  },
+  {
+    "cve_tipomateria": 14,
+    "descripcion": "Compensación",
+    "siglas": "COMP"
+  },
+  {
+    "cve_tipomateria": 15,
+    "descripcion": "Actualización de Pensión y demás Prestaciones",
+    "siglas": "APP"
+  },
+  {
+    "cve_tipomateria": 16,
+    "descripcion": "Pensiones y demás Prestaciones",
+    "siglas": "PDP"
+  },
+  {
+    "cve_tipomateria": 17,
+    "descripcion": "Actualización demás Prestaciones",
+    "siglas": "AP"
+  },
+  {
+    "cve_tipomateria": 18,
+    "descripcion": "Prestaciones y demás Prestaciones",
+    "siglas": "PP"
+  },
+  {
+    "cve_tipomateria": 19,
+    "descripcion": "Interpretación de Contrato de Obra Pública",
+    "siglas": "COP"
+  },
+  {
+    "cve_tipomateria": 20,
+    "descripcion": "Créditos por responsabilidades contra Servidores Públicos",
+    "siglas": "SEDSP"
+  },
+  {
+    "cve_tipomateria": 21,
+    "descripcion": "Créditos por responsabilidades contra particulares",
+    "siglas": "CFDRSP"
+  },
+  {
+    "cve_tipomateria": 23,
+    "descripcion": "Requerimiento de pago de una póliza de fianza y acción",
+    "siglas": "RPPFA"
+  },
+  {
+    "cve_tipomateria": 24,
+    "descripcion": "Requerimiento de pago de intereses",
+    "siglas": "RPI"
+  },
+  {
+    "cve_tipomateria": 25,
+    "descripcion": "Ley Federal de Responsabilidades de los Servidores Públicos",
+    "siglas": "LFRSP"
+  },
+  {
+    "cve_tipomateria": 26,
+    "descripcion": "Modificación Revocación o Confirmación de cuotas compensatorias",
+    "siglas": "MRCCC"
+  },
+  {
+    "cve_tipomateria": 27,
+    "descripcion": "Certificados de Origen",
+    "siglas": "CO"
+  },
+  {
+    "cve_tipomateria": 28,
+    "descripcion": "Precios de transferencia",
+    "siglas": "PT"
+  },
+  {
+    "cve_tipomateria": 29,
+    "descripcion": "Tratados de Libre Comercio",
+    "siglas": "TLC"
+  },
+  {
+    "cve_tipomateria": 30,
+    "descripcion": "Impugnación de las fases de procedimiento en materia de prácticas desleales de Comercio Exterior",
+    "siglas": "IFPMTDCE"
+  },
+  {
+    "cve_tipomateria": 31,
+    "descripcion": "Apercibimientos",
+    "siglas": "APER"
+  },
+  {
+    "cve_tipomateria": 32,
+    "descripcion": "Amonestacion",
+    "siglas": "AMO"
+  },
+  {
+    "cve_tipomateria": 33,
+    "descripcion": "Suspensión",
+    "siglas": "SUS"
+  },
+  {
+    "cve_tipomateria": 34,
+    "descripcion": "Destitución",
+    "siglas": "DES"
+  },
+  {
+    "cve_tipomateria": 35,
+    "descripcion": "Inhabilitación",
+    "siglas": "INH"
+  },
+  {
+    "cve_tipomateria": 36,
+    "descripcion": "Concesión",
+    "siglas": "CONS"
+  },
+  {
+    "cve_tipomateria": 9005,
+    "descripcion": "Ley Federal de Proc. Admon.",
+    "siglas": "LFPA"
+  },
+  {
+    "cve_tipomateria": 9998,
+    "descripcion": "Sin Captura",
+    "siglas": "9998"
+  },
+  {
+    "cve_tipomateria": 9999,
+    "descripcion": "Otras",
+    "siglas": "9999"
+  },
+  {
+    "cve_tipomateria": 9001,
+    "descripcion": "Multa por Infracción a la Ley Federal del Trabajo",
+    "siglas": "38"
+  },
+  {
+    "cve_tipomateria": 9003,
+    "descripcion": "Director General de Servicios a la Navegación en el Espacio Aereo Mexicano de la Secretaría de Comunicaciones y Transportes",
+    "siglas": "39"
+  },
+  {
+    "cve_tipomateria": 9004,
+    "descripcion": "Sanciones Administrativas a Servidores Públicos",
+    "siglas": "40"
+  },
+  {
+    "cve_tipomateria": 9006,
+    "descripcion": "Comisión del Sistema de Ahorro para el Retiro",
+    "siglas": "SAT"
+  },
+  {
+    "cve_tipomateria": 9002,
+    "descripcion": "Ley de la Comisión Nacional de los Sistemas de Ahorros para el Retiro",
+    "siglas": "LCNSAR"
+  },
+  {
+    "cve_tipomateria": 37,
+    "descripcion": "Expropiación",
+    "siglas": "EXPR"
+  },
+  {
+    "cve_tipomateria": 38,
+    "descripcion": "Autorizaciones",
+    "siglas": "AUTR"
+  },
+  {
+    "cve_tipomateria": 39,
+    "descripcion": "Consultas",
+    "siglas": "CONS"
+  },
+  {
+    "cve_tipomateria": 40,
+    "descripcion": "Licencias",
+    "siglas": "LICE"
+  },
+  {
+    "cve_tipomateria": 41,
+    "descripcion": "Permisos",
+    "siglas": "PERM"
+  },
+  {
+    "cve_tipomateria": 42,
+    "descripcion": "Sanciones Administrativas",
+    "siglas": "SANC"
+  },
+  {
+    "cve_tipomateria": 43,
+    "descripcion": "Negativas a anotar en un registro",
+    "siglas": "NYAR"
+  },
+  {
+    "cve_tipomateria": 44,
+    "descripcion": "Reconocimiento o restitución de derechos",
+    "siglas": "RECR"
+  },
+  {
+    "cve_tipomateria": 45,
+    "descripcion": "Indemnizaciones",
+    "siglas": "INDM"
+  },
+  {
+    "cve_tipomateria": 46,
+    "descripcion": "Revisión (LFPA)",
+    "siglas": "LFPA"
+  },
+  {
+    "cve_tipomateria": 9007,
+    "descripcion": "Prestaciones y demás Prestaciones",
+    "siglas": "TEMP"
+  },
+  {
+    "cve_tipomateria": 9008,
+    "descripcion": "I.M.S.S",
+    "siglas": "TEMP"
+  },
+  {
+    "cve_tipomateria": 909,
+    "descripcion": "Revocación (CFF)",
+    "siglas": "909"
+  },
+  {
+    "cve_tipomateria": 910,
+    "descripcion": "Secretaria de Comunicaciones y Transportes",
+    "siglas": "910"
+  },
+  {
+    "cve_tipomateria": 9009,
+    "descripcion": "Multas por Infracción a la Ley de Aguas Nacionales",
+    "siglas": "9009"
+  },
+  {
+    "cve_tipomateria": 9010,
+    "descripcion": "Inconformidad",
+    "siglas": "9010"
+  },
+  {
+    "cve_tipomateria": 9011,
+    "descripcion": "Procuraduría Federal del Consumidor",
+    "siglas": "9011"
+  },
+  {
+    "cve_tipomateria": 9013,
+    "descripcion": "Sanción económica",
+    "siglas": "9012"
+  },
+  {
+    "cve_tipomateria": 9014,
+    "descripcion": "Revocación (LGISMS)",
+    "siglas": "RLGISMS"
+  },
+  {
+    "cve_tipomateria": 9015,
+    "descripcion": "Multas por infracción a la Ley del Seguro Social",
+    "siglas": "MILSS"
+  },
+  {
+    "cve_tipomateria": 9016,
+    "descripcion": "Multas por Infracción a la Ley Aduanera",
+    "siglas": "MILA"
+  },
+  {
+    "cve_tipomateria": 9017,
+    "descripcion": "Secretaría de Salud",
+    "siglas": "SRIS"
+  },
+  {
+    "cve_tipomateria": 9018,
+    "descripcion": "Luz y Fuerza del Centro",
+    "siglas": "LFC"
+  },
+  {
+    "cve_tipomateria": 49,
+    "descripcion": "Cumplimiento de Contrato de Obra Pública",
+    "siglas": "CCOP"
+  },
+  {
+    "cve_tipomateria": 50,
+    "descripcion": "Anotaciones en un registro",
+    "siglas": "AR"
+  },
+  {
+    "cve_tipomateria": 54,
+    "descripcion": "Inconformidad (INFONAVIT)",
+    "siglas": "II"
+  },
+  {
+    "cve_tipomateria": 55,
+    "descripcion": "Requerimientos",
+    "siglas": "III"
+  },
+  {
+    "cve_tipomateria": 9019,
+    "descripcion": "Inconformidad ( Ley de Adquisiciones)",
+    "siglas": "ILA"
+  },
+  {
+    "cve_tipomateria": 56,
+    "descripcion": "Negativa",
+    "siglas": "56"
+  },
+  {
+    "cve_tipomateria": 57,
+    "descripcion": "Abandono",
+    "siglas": "57"
+  },
+  {
+    "cve_tipomateria": 58,
+    "descripcion": "Desechamiento",
+    "siglas": "58"
+  },
+  {
+    "cve_tipomateria": 59,
+    "descripcion": "Infracción",
+    "siglas": "59"
+  },
+  {
+    "cve_tipomateria": 60,
+    "descripcion": "Infracción en materia de comercio",
+    "siglas": "60"
+  },
+  {
+    "cve_tipomateria": 61,
+    "descripcion": "Nulidad",
+    "siglas": "61"
+  },
+  {
+    "cve_tipomateria": 62,
+    "descripcion": "Caducidad",
+    "siglas": "62"
+  },
+  {
+    "cve_tipomateria": 63,
+    "descripcion": "Cancelación",
+    "siglas": "63"
+  },
+  {
+    "cve_tipomateria": 64,
+    "descripcion": "Licencias y Transmisión de Derechos",
+    "siglas": "64"
+  },
+  {
+    "cve_tipomateria": 65,
+    "descripcion": "Acoso Laboral",
+    "siglas": "CPIG"
+  },
+  {
+    "cve_tipomateria": 66,
+    "descripcion": "Acoso Sexual",
+    "siglas": "CPIG"
+  },
+  {
+    "cve_tipomateria": 67,
+    "descripcion": "Hostigamiento Sexual",
+    "siglas": "CPIG"
+  },
+  {
+    "cve_tipomateria": 68,
+    "descripcion": "Discriminación (edad, identidad indigena, orientación sexual)",
+    "siglas": "CPIG"
+  },
+  {
+    "cve_tipomateria": 69,
+    "descripcion": "Violencia Obstétrica",
+    "siglas": "CPIG"
+  }
+]

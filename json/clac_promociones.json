@@ -1,0 +1,27 @@
+[
+  {
+    "cve_promocion": 1,
+    "descripcion": "JUICIO DE NULIDAD",
+    "siglas": "1"
+  },
+  {
+    "cve_promocion": 2,
+    "descripcion": "AMPARO",
+    "siglas": "2"
+  },
+  {
+    "cve_promocion": 3,
+    "descripcion": "REVISIÓN FISCAL",
+    "siglas": "3"
+  },
+  {
+    "cve_promocion": 4,
+    "descripcion": "QUEJA",
+    "siglas": "4"
+  },
+  {
+    "cve_promocion": 5,
+    "descripcion": "RECLAMACION (Resp. Patr.)",
+    "siglas": "5"
+  }
+]

@@ -1,0 +1,751 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribunal Federal de Justicia Administrativa</title>
+
+    <!--Kendo-->
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/themes/10.0.1/default/default-main.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+    <!-- jQuery dependencies -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./js/kendo.all.min.js"></script>
+
+    <!-- JSON data -->
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.2/moment.min.js"></script>
+
+    <script src="./js/tfja.js"></script>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <script src="./js/kendo-ui-license.js"></script>
+</head>
+
+<body>
+
+    <script src="./json/products.json"></script>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <nav class="nav flex-colum">
+            <a class="nav-link" href="#" onclick="hideAllForms()">
+                <span class="icon">
+                    <i class="bi bi-grid"></i>
+                </span>
+                <span class="description">Administración</span>
+            </a>
+
+            <!-- Accordion submenu start -->
+            <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#childmenu" aria-expanded="false" aria-controls="childmenu">
+                <span class="icon">
+                    <i class="bi bi-bank"></i>
+                </span>
+                <span class="description">
+                    Oficialia de Partes
+                    <i class="bi bi-caret-down-fill"></i>
+                </span>
+            </a>
+            <div class="sub-menu collapse" id="childmenu">
+                <a class="nav-link" style="padding-left: 15%" href="#" data-bs-toggle="collapse" data-bs-target="#grandchildmenu" aria-expanded="false" aria-controls="grandchildmenu">
+                    <span class="icon">
+                        <i class="bi bi-pencil"></i>
+                    </span>
+                    <span class="description">
+                        Registro
+                        <i class="bi bi-caret-down-fill"></i>
+                    </span>
+                </a>
+                <div class="sub-menu collapse" id="grandchildmenu">
+                    <a class="nav-link" style="padding-left: 21%" href="#" onclick="showDemandas()">
+                        <span class="icon">
+                            <i class="bi bi-stack"></i>
+                        </span>
+                        <span class="description">Demandas</span>
+                    </a>
+                    <a class="nav-link" style="padding-left: 21%" href="#" onclick="showPromociones()">
+                        <span class="icon">
+                            <i class="bi bi-sort-up"></i>
+                        </span>
+                        <span class="description">Promociones</span>
+                    </a>
+                    <a class="nav-link" style="padding-left: 21%" href="#">
+                        <span class="icon">
+                            <i class="bi bi-chat-right-text"></i>
+                        </span>
+                        <span class="description">Exhortos</span>
+                    </a>
+                    <a class="nav-link" style="padding-left: 21%" href="#">
+                        <span class="icon">
+                            <i class="bi bi-hammer"></i>
+                        </span>
+                        <span class="description">Autoridades</span>
+                    </a>
+                    <a class="nav-link" style="padding-left: 21%" href="#">
+                        <span class="icon">
+                            <i class="bi bi-people"></i>
+                        </span>
+                        <span class="description">Litigantes</span>
+                    </a>
+                    <a class="nav-link" style="padding-left: 21%" href="#">
+                        <span class="icon">
+                            <i class="bi bi-star-half"></i>
+                        </span>
+                        <span class="description">Testimonios</span>
+                    </a>
+                    <a class="nav-link" style="padding-left: 21%" href="#">
+                        <span class="icon">
+                            <i class="bi bi-keyboard"></i>
+                        </span>
+                        <span class="description">Alta Manual</span>
+                    </a>
+                    <a class="nav-link" style="padding-left: 21%" href="#">
+                        <span class="icon">
+                            <i class="bi bi-exclamation-circle"></i>
+                        </span>
+                        <span class="description">Queja Improc.</span>
+                    </a>
+                </div>
+                <a class="nav-link" style="padding-left: 15%" href="#">
+                    <span class="icon">
+                        <i class="bi bi-envelope"></i>
+                    </span>
+                    <span class="description">Envío</span>
+                </a>
+                <a class="nav-link" style="padding-left: 15%" href="#">
+                    <span class="icon">
+                        <i class="bi bi-send"></i>
+                    </span>
+                    <span class="description">Envío Automático</span>
+                </a>
+                <a class="nav-link" style="padding-left: 15%" href="#">
+                    <span class="icon">
+                        <i class="bi bi-envelope-open"></i>
+                    </span>
+                    <span class="description">Recepción</span>
+                </a>
+                <a class="nav-link" style="padding-left: 15%" href="#" onclick="showConsulta()">
+                    <span class="icon">
+                        <i class="bi bi-search"></i>
+                    </span>
+                    <span class="description">Consulta General</span>
+                </a>
+                <a class="nav-link" style="padding-left: 15%" href="#">
+                    <span class="icon">
+                        <i class="bi bi-pencil-square"></i>
+                    </span>
+                    <span class="description">Mod. Expedientes</span>
+                </a>
+                <a class="nav-link" style="padding-left: 15%" href="#">
+                    <span class="icon">
+                        <i class="bi bi-copy"></i>
+                    </span>
+                    <span class="description">Duplicados</span>
+                </a>
+            </div>
+            <!-- Accordion submenu end -->
+
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-folder"></i>
+                </span>
+                <span class="description">Archivo</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-ubuntu"></i>
+                </span>
+                <span class="description">Sala - Ponencia</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-bar-chart"></i>
+                </span>
+                <span class="description">Actuaria</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-archive"></i>
+                </span>
+                <span class="description">Archivo Historico</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-tools"></i>
+                </span>
+                <span class="description">Herramientas</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-inboxes"></i>
+                </span>
+                <span class="description">Tradicional</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-briefcase"></i>
+                </span>
+                <span class="description">Gestión Doc.</span>
+            </a>
+            <a class="nav-link" href="#">
+                <span class="icon">
+                    <i class="bi bi-box-arrow-right"></i>
+                </span>
+                <span class="description">Salir</span>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Main area -->
+    <main class="main-content">
+        <div class='well'>
+            <div class='bg-title'>
+                <span class='title'>Sistema de Control y Seguimiento de Juicios</span>
+            </div>
+        </div>
+
+        <!--Demandas start-->
+        <div id="formDemandas" style="display: none; padding: 15px; background-color: #fff;">
+            <div class="container py-1 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-lg-8 col-xl-12">
+                        <div class="card rounded-4" style="background-color: #3A6EA5; color:#fff;">
+                            <div class="card-body p-4 p-md-5">
+                                <form>
+                                    <fieldset>
+                                        <legend><i class="bi bi-stack" style="padding-right:15px;"></i>Captura de Demanda Nueva</legend>
+                                        <div class="row">
+
+                                            <div class="col-lg-11">
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col-6">
+                                                        <label for="disabledTextInput" class="form-label">Actor</label>
+                                                        <input type="text" id="disabledTextInput" class="form-control">
+                                                    </div>
+                                                    <div class="mb-3 col-6">
+                                                        <label for="disabledTextInput" class="form-label">Fecha de Presentación</label>
+                                                        <div class="input-group date" id="datepicker">
+                                                            <input type="text" class="form-control">
+                                                            <span class="input-group-append">
+                                                                <span class="input-group-text bg-white d-block">
+                                                                    <i class="fa fa-calendar"></i>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col-6">
+                                                        <label for="disabledTextInput" class="form-label">Cuantía</label>
+                                                        <input type="text" id="disabledTextInput" class="form-control">
+                                                    </div>
+                                                    <div class="mb-3 col-6">
+                                                        <label for="disabledTextInput" class="form-label">Representante Legal</label>
+                                                        <input type="text" id="disabledTextInput" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col-6">
+                                                        <label for="disabledTextInput" class="form-label">Tipo de Resolución</label>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                                Resolución Expresa
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                                Resolución Ficta
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                                            <label class="form-check-label" for="flexRadioDefault3">
+                                                                Juicio de Lecividad
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                                                            <label class="form-check-label" for="flexRadioDefault4">
+                                                                Decretos y Acuerdos
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3 col-6">
+                                                        <div data-mdb-input-init class="form-outline">
+                                                            <label class="form-label" for="textAreaExample3">Resolución Impugnada</label>
+                                                            <textarea class="form-control" id="textAreaExample3" rows="4"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row d-flex">
+                                                    <div class="mb-3 flex-even">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate1">
+                                                        <label class="form-check-label" for="flexCheckIndeterminate1">
+                                                            Enviado por otra sala
+                                                        </label>
+                                                    </div>
+                                                    <div class="mb-3 flex-even">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate2">
+                                                        <label class="form-check-label" for="flexCheckIndeterminate2">
+                                                            Recepción por correo
+                                                        </label>
+                                                    </div>
+                                                    <div class="mb-3 flex-even">
+                                                        <label for="disabledTextInput" class="form-label">Fecha de Recepción</label>
+                                                    </div>
+                                                    <div class="mb-3 col-md-3">
+                                                        <div class="input-group date" id="datepicker1">
+                                                            <input type="text" class="form-control">
+                                                            <span class="input-group-append">
+                                                                <span class="input-group-text bg-white d-block">
+                                                                    <i class="fa fa-calendar"></i>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col-md-1">
+                                                        <label for="disabledTextInput" class="form-label">Ley</label>
+                                                    </div>
+                                                    <div class="mb-3 col-md-1">
+                                                        <input type="text" id="leyesTextInput" class="form-control">
+                                                    </div>
+                                                    <div class="mb-3 col">
+                                                        <select class="form-select" data-val="true" id="leyesList" name="Leyes"></select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col-md-1">
+                                                        <label for="disabledTextInput" class="form-label">Materia</label>
+                                                    </div>
+                                                    <div class="mb-3 col-md-1">
+                                                        <input type="text" id="materiaTextInput" class="form-control">
+                                                    </div>
+                                                    <div class="mb-3 col">
+                                                        <select class="form-select" data-val="true" id="materiasList" name="Materia"></select>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col-md-1">
+                                                        <label for="disabledTextInput" class="form-label">Tipo</label>
+                                                    </div>
+                                                    <div class="mb-3 col-md-1">
+                                                        <input type="text" id="tiposMateriaTextInput" class="form-control">
+                                                    </div>
+                                                    <div class="mb-3 col">
+                                                        <select class="form-select" data-val="true" id="tiposMateriaList" name="TipoMateria"></select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-1">
+                                                <div class="mb-1 mt-4">
+                                                    <!--<button class="btn btn-light btn-sm btn-square-md"><i class="fa fa-plus"></i> Nuevo</button>-->
+                                                    <button class="btn btn-light btn-sm btn-square-md" data-pausetext="Nuevo"
+                                                            data-resumetext="Nuevo">
+                                                        <i class="icon-nuevo"></i> <br />Nuevo
+                                                    </button>
+                                                </div>
+                                                <div class="mb-1">
+                                                    <button class="btn btn-light btn-sm btn-square-md" data-pausetext="Guardar"
+                                                            data-resumetext="Guardar">
+                                                        <i class="icon-guardar"></i> <br />Guardar
+                                                    </button>
+                                                </div>
+                                                <div class="mb-1">
+                                                    <button class="btn btn-light btn-sm btn-square-md" data-pausetext="Cancelar"
+                                                            data-resumetext="Cancelar">
+                                                        <i class="icon-cancelar"></i> <br />Cancelar
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Demandas end-->
+        <!--Promociones start-->
+        <div id="formPromociones" style="display: none; padding: 15px; background-color: #fff;">
+            <div class="container py-1 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-lg-8 col-xl-12">
+                        <div class="card rounded-4" style="background-color: #3A6EA5; color:#fff;">
+                            <div class="card-body p-4 p-md-5">
+                                <form>
+                                    <fieldset>
+                                        <legend><i class="bi bi-sort-up" style="padding-right:15px;"></i>Captura de Promociones de Oficialía de Partes</legend>
+                                        <div class="row">
+                                            <div class="col-lg-11">
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col-6">
+                                                        <label for="disabledTextInput" class="form-label">Expediente</label>
+                                                        <input type="text" id="disabledTextInput" class="form-control">
+                                                    </div>
+                                                    <div class="mb-3 col-6">
+                                                        <label for="disabledTextInput" class="form-label">Promoción a Buscar en Catálogo</label>
+                                                        <select class="form-select" id="sel1" name="sellistTiposMateria">
+                                                            <option value="default" selected="selected"></option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col">
+                                                        <label for="disabledTextInput" class="form-label">Actor</label>
+                                                        <input type="text" id="disabledTextInput" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col-2">
+                                                        <label for="disabledTextInput" class="form-label">Promoción</label>
+                                                        <input type="text" id="promoTextInput" class="form-control">
+                                                    </div>
+                                                    <div class="mb-3 col">
+                                                        <label for="disabledTextInput" class="form-label">&nbsp</label>
+                                                        <select class="form-select" data-val="true" id="promoList" name="Promociones"></select>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col-2">
+                                                        <label for="disabledTextInput" class="form-label">Subtipo</label>
+                                                        <input type="text" id="tiposPromoTextInput" class="form-control">
+                                                    </div>
+                                                    <div class="mb-3 col">
+                                                        <label for="disabledTextInput" class="form-label">&nbsp</label>
+                                                        <select class="form-select" data-val="true" id="tiposPromoList" name="SubtipoPromo"></select>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col">
+                                                        <label for="disabledTextInput" class="form-label">Nombre o Cargo del Promovente</label>
+                                                        <select class="form-select" data-val="true" id="promoventeList" name="Promovente"></select>
+                                                    </div>
+                                                </div>
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col-4">
+                                                        <label for="disabledTextInput" class="form-label">Número de Oficio</label>
+                                                        <input type="text" id="disabledTextInput" class="form-control">
+                                                    </div>
+                                                    <div class="mb-3 col-4">
+                                                        <label for="disabledTextInput" class="form-label">Fecha de Oficio</label>
+                                                        <div class="input-group date" id="datepicker2">
+                                                            <input type="text" class="form-control">
+                                                            <span class="input-group-append">
+                                                                <span class="input-group-text bg-white d-block">
+                                                                    <i class="fa fa-calendar"></i>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mb-3 col-4">
+                                                        <label for="disabledTextInput" class="form-label">Fecha Presentación TFJA</label>
+                                                        <div class="input-group date" id="datepicker3">
+                                                            <input type="text" class="form-control">
+                                                            <span class="input-group-append">
+                                                                <span class="input-group-text bg-white d-block">
+                                                                    <i class="fa fa-calendar"></i>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-1">
+                                                <div class="mb-1 mt-4">
+                                                    <button class="btn btn-light btn-sm btn-square-md" data-pausetext="Nuevo"
+                                                            data-resumetext="Nuevo">
+                                                        <i class="icon-nuevo"></i> <br />Nuevo
+                                                    </button>
+                                                </div>
+                                                <div class="mb-1">
+                                                    <button class="btn btn-light btn-sm btn-square-md" data-pausetext="Guardar"
+                                                            data-resumetext="Guardar">
+                                                        <i class="icon-guardar"></i> <br />Guardar
+                                                    </button>
+                                                </div>
+                                                <div class="mb-1">
+                                                    <button class="btn btn-light btn-sm btn-square-md" data-pausetext="Cancelar"
+                                                            data-resumetext="Cancelar">
+                                                        <i class="icon-cancelar"></i> <br />Cancelar
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Promociones end-->
+        <!--Consulta General start-->
+        <div id="formConsultaGral" style="display: none; padding: 15px; background-color: #fff;">
+            <div class="container py-1 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-lg-8 col-xl-12">
+                        <div class="card rounded-4" style="background-color: #3A6EA5; color:#fff;">
+                            <div class="card-body p-4 p-md-5">
+                                <form>
+                                    <fieldset>
+                                        <legend><i class="bi bi-search" style="padding-right:15px;"></i>Consulta General de Expedientes</legend>
+                                        <!--<table id="ejemplo" class="display nowrap" style="width:100%">
+                                            <thead>
+                                                <tr>
+                                                    <th>First name</th>
+                                                    <th>Last name</th>
+                                                    <th>Position</th>
+                                                    <th>Office</th>
+                                                    <th>Age</th>
+                                                    <th>Start date</th>
+                                                    <th>Salary</th>
+                                                    <th>Extn.</th>
+                                                    <th>E-mail</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Tiger</td>
+                                                    <td>Nixon</td>
+                                                    <td>System Architect</td>
+                                                    <td>Edinburgh</td>
+                                                    <td>61</td>
+                                                    <td>2011-04-25</td>
+                                                    <td>$320,800</td>
+                                                    <td>5421</td>
+                                                    <td>t.nixon@datatables.net</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Garrett</td>
+                                                    <td>Winters</td>
+                                                    <td>Accountant</td>
+                                                    <td>Tokyo</td>
+                                                    <td>63</td>
+                                                    <td>2011-07-25</td>
+                                                    <td>$170,750</td>
+                                                    <td>8422</td>
+                                                    <td>g.winters@datatables.net</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ashton</td>
+                                                    <td>Cox</td>
+                                                    <td>Junior Technical Author</td>
+                                                    <td>San Francisco</td>
+                                                    <td>66</td>
+                                                    <td>2009-01-12</td>
+                                                    <td>$86,000</td>
+                                                    <td>1562</td>
+                                                    <td>a.cox@datatables.net</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Cedric</td>
+                                                    <td>Kelly</td>
+                                                    <td>Senior Javascript Developer</td>
+                                                    <td>Edinburgh</td>
+                                                    <td>22</td>
+                                                    <td>2012-03-29</td>
+                                                    <td>$433,060</td>
+                                                    <td>6224</td>
+                                                    <td>c.kelly@datatables.net</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Airi</td>
+                                                    <td>Satou</td>
+                                                    <td>Accountant</td>
+                                                    <td>Tokyo</td>
+                                                    <td>33</td>
+                                                    <td>2008-11-28</td>
+                                                    <td>$162,700</td>
+                                                    <td>5407</td>
+                                                    <td>a.satou@datatables.net</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>-->
+                                        <!--<div class="row">
+                                            <div style="width:300px;">
+                                                <table id="example" class="table text-nowrap p-0 m-0" style="width:100px">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Expediente</th>
+                                                            <th>Actor</th>
+                                                            <th>Fecha</th>
+                                                            <th>Cuantia</th>
+                                                            <th>Materia</th>
+                                                            <th>Usuario</th>
+                                                            <th>Enviado</th>
+                                                            <th>Recibido</th>
+                                                        </tr>
+                                                    </thead>
+                                                </table>
+                                            </div>
+                                        </div>-->
+
+                                        <div class="row justify-content-md-center">
+
+                                            <div class="col-lg-11">
+                                                <!--<tr><th colspan="8" class="text-center">Expedientes</th></tr>-->
+                                                <!--<div class='table'>
+                                                    <div class='row'>
+                                                        <div class='cell'>Something quite long</div>
+                                                        <div class='cell'>here is some moreSomething quite long that should exceed the table cell.Something quite long that should exceed the table cell.</div>
+                                                    </div>
+                                                </div>-->
+
+                                                <div class="mt-3 mb-4" id="kendoGridExample">
+                                                    <div class="d-flex align-items-center justify-content-center rounded-top-3" style="color:black; background-color:white; height:50px;">
+                                                        <b>Expedientes</b>
+                                                    </div>
+                                                    <div id="grid"></div>
+                                                </div>
+
+                                                <div class="row justify-content-md-center">
+                                                    <div class="mb-3 col">
+
+                                                        <div class="flex-container">
+                                                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                                                <a class="nav-link active" id="nav-expediente-tab" data-bs-toggle="tab" data-bs-target="#nav-one" type="button" role="tab" aria-controls="nav-one" aria-selected="true">Expediente</a>
+                                                                <a class="nav-link" id="nav-promo-tab" data-bs-toggle="tab" data-bs-target="#nav-two" type="button" role="tab" aria-controls="nav-two" aria-selected="false">Promociones</a>
+                                                                <a class="nav-link" id="nav-actor-tab" data-bs-toggle="tab" data-bs-target="#nav-three" role="tab" type="button" aria-controls="nav-three" aria-selected="false">Actor</a>
+                                                                <a class="nav-link" id="nav-cuantia-tab" data-bs-toggle="tab" data-bs-target="#nav-four" role="tab" type="button" aria-controls="nav-four" aria-selected="false">Cuantía</a>
+                                                                <a class="nav-link" id="nav-usuario-tab" data-bs-toggle="tab" data-bs-target="#nav-five" type="button" role="tab" aria-controls="nav-one" aria-selected="true">Usuario</a>
+                                                                <a class="nav-link" id="nav-rep-tab" data-bs-toggle="tab" data-bs-target="#nav-six" type="button" role="tab" aria-controls="nav-two" aria-selected="false">Rep. Legal</a>
+                                                                <a class="nav-link" id="nav-resolucion-tab" data-bs-toggle="tab" data-bs-target="#nav-seven" role="tab" type="button" aria-controls="nav-three" aria-selected="false">Resolución</a>
+                                                                <a class="nav-link" id="nav-materias-tab" data-bs-toggle="tab" data-bs-target="#nav-eight" role="tab" type="button" aria-controls="nav-four" aria-selected="false">Materias</a>
+                                                                <a class="nav-link" id="nav-autoridades-tab" data-bs-toggle="tab" data-bs-target="#nav-nine" role="tab" type="button" aria-controls="nav-four" aria-selected="false">Autoridades</a>
+                                                            </div>
+                                                        </div>
+
+                                                        <div id="content-wrap">
+                                                            <div class="tab-content" id="nav-tabContent">
+                                                                <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab" tabindex="0">
+
+                                                                    <div class="row d-flex">
+                                                                        <div class="mb-3 col-md-1">
+                                                                            <label for="disabledTextInput" class="form-label">Expediente</label>
+                                                                        </div>
+                                                                        <div class="mb-3 col-md-11">
+                                                                            <input type="text" id="expTextInput" class="form-control">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row d-flex">
+                                                                        <div class="mb-3 flex-even">
+                                                                            <label for="disabledTextInput" class="form-label">Fecha de Inicial</label>
+                                                                        </div>
+                                                                        <div class="mb-3 col-md-4">
+                                                                            <div class="input-group date" id="datepicker4">
+                                                                                <input type="text" class="form-control">
+                                                                                <span class="input-group-append">
+                                                                                    <span class="input-group-text bg-white d-block">
+                                                                                        <i class="fa fa-calendar"></i>
+                                                                                    </span>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="mb-3 flex-even">
+                                                                            <label for="disabledTextInput" class="form-label" style="text-align: right; width: 100%;">Fecha de Final</label>
+                                                                        </div>
+                                                                        <div class="mb-3 col-md-4">
+                                                                            <div class="input-group date" id="datepicker5">
+                                                                                <input type="text" class="form-control">
+                                                                                <span class="input-group-append">
+                                                                                    <span class="input-group-text bg-white d-block">
+                                                                                        <i class="fa fa-calendar"></i>
+                                                                                    </span>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="tab-pane fade" id="nav-two" role="tabpanel" aria-labelledby="nav-two-tab" tabindex="0">
+                                                                    <!--<p>text text</p>-->
+                                                                </div>
+                                                                <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab" tabindex="0">
+                                                                    <!--<p>text text text</p>-->
+                                                                </div>
+                                                                <div class="tab-pane fade" id="nav-four" role="tabpanel" aria-labelledby="nav-four-tab" tabindex="0">
+                                                                    <!--<p>text text text text</p>-->
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-1">
+                                                <div class="mb-1 mt-4">
+                                                    <button class="btn btn-light btn-sm btn-square-md" data-pausetext="Consulta"
+                                                            data-resumetext="Consulta" id="consultaExp">
+                                                        <i class="icon-consulta"></i> <br />Consulta
+                                                    </button>
+                                                </div>
+                                                <div class="mb-1">
+                                                    <button class="btn btn-light btn-sm btn-square-md" data-pausetext="Detalle"
+                                                            data-resumetext="Detalle">
+                                                        <i class="icon-detalle"></i> <br />Detalle
+                                                    </button>
+                                                </div>
+                                                <div class="mb-1">
+                                                    <button class="btn btn-light btn-sm btn-square-md" data-pausetext="Limpiar"
+                                                            data-resumetext="Limpiar">
+                                                        <i class="icon-limpiar"></i> <br />Limpiar
+                                                    </button>
+                                                </div>
+                                                <div class="mb-1">
+                                                    <button class="btn btn-light btn-sm btn-square-md" data-pausetext="Exportar"
+                                                            data-resumetext="Exportar">
+                                                        <i class="icon-exportar"></i> <br />Exportar
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Consulta General end-->
+
+    </main>
+
+</body>
+</html>

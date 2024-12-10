@@ -1,0 +1,162 @@
+[
+  {
+    "cve_materia": 200,
+    "descripcion": "Devoluciones",
+    "siglas": "200"
+  },
+  {
+    "cve_materia": 100,
+    "descripcion": "Crédito Fiscal Determinado",
+    "siglas": "100"
+  },
+  {
+    "cve_materia": 300,
+    "descripcion": "Multas Federales no Fiscales",
+    "siglas": "300"
+  },
+  {
+    "cve_materia": 400,
+    "descripcion": "Agravio en Materia Fiscal distinto a los anteriores",
+    "siglas": "400"
+  },
+  {
+    "cve_materia": 500,
+    "descripcion": "Pensiones de las Fuerzas Armadas",
+    "siglas": "500"
+  },
+  {
+    "cve_materia": 600,
+    "descripcion": "Pensiones Civiles",
+    "siglas": "600"
+  },
+  {
+    "cve_materia": 700,
+    "descripcion": "Interpretación y Cumplimiento de contrato de obra pública de la Administración Pública Federal Centralizada",
+    "siglas": "700"
+  },
+  {
+    "cve_materia": 800,
+    "descripcion": "Créditos por responsabilidad de Servidores Públicos",
+    "siglas": "800"
+  },
+  {
+    "cve_materia": 900,
+    "descripcion": "Requerimientos de Garantías a favor de la Federación",
+    "siglas": "900"
+  },
+  {
+    "cve_materia": 1000,
+    "descripcion": "Las Resoluciones que se dicten negando a los particulares la Indemnización a que se contrae el Artículo 77 Bis de la Ley Federal de Responsabilidades de los Servidores Públicos",
+    "siglas": "1000"
+  },
+  {
+    "cve_materia": 1100,
+    "descripcion": "Artículo 94 de la Ley de Comercio Exterior",
+    "siglas": "1100"
+  },
+  {
+    "cve_materia": 1200,
+    "descripcion": "Sanciones Administrativas a Servidores Públicos",
+    "siglas": "1200"
+  },
+  {
+    "cve_materia": 1300,
+    "descripcion": "Instancias dictadas por Autoridad Administrativa que pongan fin a un procedimiento Administrativo, a una Instancia o resuelvan un Expediente en términos de la LFPA",
+    "siglas": "1300"
+  },
+  {
+    "cve_materia": 9998,
+    "descripcion": "Sin Capturar",
+    "siglas": "9998"
+  },
+  {
+    "cve_materia": 9999,
+    "descripcion": "Otras",
+    "siglas": "9999"
+  },
+  {
+    "cve_materia": 1400,
+    "descripcion": "Resoluciones a recursos administrativos competencia del TFJFA",
+    "siglas": "1400"
+  },
+  {
+    "cve_materia": 1500,
+    "descripcion": "Responsabilidad Patrimonial del Estado",
+    "siglas": "Resp. Pat. Edo."
+  },
+  {
+    "cve_materia": 1600,
+    "descripcion": "Patentes",
+    "siglas": "1600"
+  },
+  {
+    "cve_materia": 1700,
+    "descripcion": "Diseños Industriales",
+    "siglas": "1700"
+  },
+  {
+    "cve_materia": 1800,
+    "descripcion": "Modelos de Utilidad",
+    "siglas": "1800"
+  },
+  {
+    "cve_materia": 1900,
+    "descripcion": "Marcas",
+    "siglas": "1900"
+  },
+  {
+    "cve_materia": 2000,
+    "descripcion": "Avisos Comerciales",
+    "siglas": "2000"
+  },
+  {
+    "cve_materia": 2100,
+    "descripcion": "Nombres Comerciales",
+    "siglas": "2100"
+  },
+  {
+    "cve_materia": 2200,
+    "descripcion": "Denominaciones de Origen",
+    "siglas": "2200"
+  },
+  {
+    "cve_materia": 2300,
+    "descripcion": "Esquemas de Trazado de Circuitos Integrados",
+    "siglas": "2300"
+  },
+  {
+    "cve_materia": 2400,
+    "descripcion": "Derechos de Autor",
+    "siglas": "2400"
+  },
+  {
+    "cve_materia": 2500,
+    "descripcion": "Derechos Conexos",
+    "siglas": "2500"
+  },
+  {
+    "cve_materia": 2600,
+    "descripcion": "Reservas de Derechos al uso Exclusivo",
+    "siglas": "2600"
+  },
+  {
+    "cve_materia": 2700,
+    "descripcion": "Derecho a la Imagen",
+    "siglas": "2700"
+  },
+  {
+    "cve_materia": 2800,
+    "descripcion": "Expresiones de Culturas Populares y Símbolos Patrios",
+    "siglas": "2800"
+  },
+  {
+    "cve_materia": 2900,
+    "descripcion": "Variedades Vegetales",
+    "siglas": "2900"
+  },
+  {
+    "cve_materia": 3000,
+    "descripcion": "Registro Sanitario",
+    "siglas": "3000"
+  }
+]

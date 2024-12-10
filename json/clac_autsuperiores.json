@@ -1,0 +1,237 @@
+[
+  {
+    "cve_autsuperior": 20,
+    "descripcion": "Secretario de Relaciones Exteriores",
+    "siglas": "SRE"
+  },
+  {
+    "cve_autsuperior": 30,
+    "descripcion": "Secretario de la Defensa Nacional",
+    "siglas": "SEDENA"
+  },
+  {
+    "cve_autsuperior": 40,
+    "descripcion": "Secretario de Marina",
+    "siglas": "SEMAR"
+  },
+  {
+    "cve_autsuperior": 50,
+    "descripcion": "Secretario de Hacienda y Crédito Público",
+    "siglas": "SHCP"
+  },
+  {
+    "cve_autsuperior": 60,
+    "descripcion": "Secretario de Seguridad Pública",
+    "siglas": "SSP"
+  },
+  {
+    "cve_autsuperior": 70,
+    "descripcion": "Secretario de Medio Ambiente y Recursos Naturales",
+    "siglas": "SEMARNAT"
+  },
+  {
+    "cve_autsuperior": 906,
+    "descripcion": "Secretario de Hacienda y Crédito Público del ...",
+    "siglas": "906"
+  },
+  {
+    "cve_autsuperior": 80,
+    "descripcion": "Secretario de Economía",
+    "siglas": "SE"
+  },
+  {
+    "cve_autsuperior": 90,
+    "descripcion": "Secretario de Agricultura, Ganadería, Desarrollo Rural, Pesca y Alimentación",
+    "siglas": "SAGARPA"
+  },
+  {
+    "cve_autsuperior": 100,
+    "descripcion": "Secretario de Comunicaciones y Transportes",
+    "siglas": "SCT"
+  },
+  {
+    "cve_autsuperior": 110,
+    "descripcion": "Secretario de la Función Pública",
+    "siglas": "SFP"
+  },
+  {
+    "cve_autsuperior": 120,
+    "descripcion": "Secretario de Energía",
+    "siglas": "SEMIP"
+  },
+  {
+    "cve_autsuperior": 130,
+    "descripcion": "Secretario de Desarrollo Social",
+    "siglas": "130"
+  },
+  {
+    "cve_autsuperior": 140,
+    "descripcion": "Secretario del Trabajo y Previsión Social",
+    "siglas": "STPS"
+  },
+  {
+    "cve_autsuperior": 150,
+    "descripcion": "Secretario de Educación Pública",
+    "siglas": "SEP"
+  },
+  {
+    "cve_autsuperior": 160,
+    "descripcion": "Secretario de la Reforma Agraria",
+    "siglas": "160"
+  },
+  {
+    "cve_autsuperior": 170,
+    "descripcion": "Secretario de Turismo",
+    "siglas": "SECTUR"
+  },
+  {
+    "cve_autsuperior": 180,
+    "descripcion": "Secretario de Salud",
+    "siglas": "SSA"
+  },
+  {
+    "cve_autsuperior": 901,
+    "descripcion": "Secretario de Finanzas del Gobierno del Distrito Federal",
+    "siglas": "GDF"
+  },
+  {
+    "cve_autsuperior": 200,
+    "descripcion": "Director General del Instituto del Fondo Nacional de la Vivienda para los Trabajadores",
+    "siglas": "INFONAVIT"
+  },
+  {
+    "cve_autsuperior": 210,
+    "descripcion": "Director General del Instituto Mexicano del Seguro Social",
+    "siglas": "IMSS"
+  },
+  {
+    "cve_autsuperior": 220,
+    "descripcion": "Director General del Instituto de Seguridad y Servicios Sociales de los Trabajadores al Servicio del Estado",
+    "siglas": "ISSSTE"
+  },
+  {
+    "cve_autsuperior": 230,
+    "descripcion": "Procurador General de la República",
+    "siglas": "PGR"
+  },
+  {
+    "cve_autsuperior": 902,
+    "descripcion": "Procurador General de Justicia del Distrito Federal",
+    "siglas": "240"
+  },
+  {
+    "cve_autsuperior": 250,
+    "descripcion": "Procurador Federal de Protección al Ambiente",
+    "siglas": "PROFEPA"
+  },
+  {
+    "cve_autsuperior": 260,
+    "descripcion": "Director General del Instituto de Seguridad Social para las Fuerzas Armadas Mexicanas",
+    "siglas": "ISSFAM"
+  },
+  {
+    "cve_autsuperior": 270,
+    "descripcion": "Director General del Instituto Mexicano de la Propiedad Industrial",
+    "siglas": "IMPI"
+  },
+  {
+    "cve_autsuperior": 280,
+    "descripcion": "Director General del Instituto Nacional de Bellas Artes",
+    "siglas": "280"
+  },
+  {
+    "cve_autsuperior": 340,
+    "descripcion": "Contralor General del Gobierno del D.F.",
+    "siglas": "CGGDF"
+  },
+  {
+    "cve_autsuperior": 10,
+    "descripcion": "Secretario de Gobernación",
+    "siglas": "SEGOB"
+  },
+  {
+    "cve_autsuperior": 998,
+    "descripcion": "Sin captura",
+    "siglas": "998"
+  },
+  {
+    "cve_autsuperior": 999,
+    "descripcion": "Otras",
+    "siglas": "999"
+  },
+  {
+    "cve_autsuperior": 915,
+    "descripcion": "Pleno de la Comisión Federal de Telecomunicaciones",
+    "siglas": "PCFT"
+  },
+  {
+    "cve_autsuperior": 908,
+    "descripcion": "Apoderado Legal de PEMEX Refineria",
+    "siglas": "alpr"
+  },
+  {
+    "cve_autsuperior": 916,
+    "descripcion": "Administración General de Destino de Bienes de Comercio Exterior Propiedad del Fisco Federal",
+    "siglas": "AGDBCEPFF"
+  },
+  {
+    "cve_autsuperior": 904,
+    "descripcion": "Director General de la Comisión Nacional del Agua",
+    "siglas": "CNA"
+  },
+  {
+    "cve_autsuperior": 905,
+    "descripcion": "Secretario de Finanzas y Planeación del Gobierno del ...",
+    "siglas": "GDF"
+  },
+  {
+    "cve_autsuperior": 190,
+    "descripcion": "Consejería Jurídica del Ejecutivo Federal",
+    "siglas": "190"
+  },
+  {
+    "cve_autsuperior": 240,
+    "descripcion": "Procurador Federal del Consumidor",
+    "siglas": "PROFECO"
+  },
+  {
+    "cve_autsuperior": 290,
+    "descripcion": "Gobernador del Banco de México",
+    "siglas": "290"
+  },
+  {
+    "cve_autsuperior": 300,
+    "descripcion": "Jefe de Gobierno del D.F.",
+    "siglas": "GDF"
+  },
+  {
+    "cve_autsuperior": 913,
+    "descripcion": "Presidente de la Comisión Nacional de Seguros y Finanzas",
+    "siglas": "pcnsf"
+  },
+  {
+    "cve_autsuperior": 914,
+    "descripcion": "Presidente de la H. Junta Federal de Conciliación y Arbitraje",
+    "siglas": "pcfca"
+  },
+  {
+    "cve_autsuperior": 350,
+    "descripcion": "Municipio de ...",
+    "siglas": "MUN"
+  },
+  {
+    "cve_autsuperior": 320,
+    "descripcion": "Director General del Instituto Nacional de Antropología e Historia",
+    "siglas": "INAH"
+  },
+  {
+    "cve_autsuperior": 330,
+    "descripcion": "Presidente de la Comision Federal de Competencia Economica",
+    "siglas": "PCFCE"
+  },
+  {
+    "cve_autsuperior": 310,
+    "descripcion": "Presidente de la Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros",
+    "siglas": "CONDUSEF"
+  }
+]

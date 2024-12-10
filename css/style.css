@@ -1,0 +1,216 @@
+﻿
+html, body {
+    height: 100%;
+}
+
+div.grid td {
+    line-height: 18px;
+}
+
+/* Remove Grid stripes (alternating rows)*/
+#grid tr.k-alt {
+    background: transparent;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 210px;
+    padding-top: 20px;
+    background-color: #00488b;
+    transition: width 0.3s;
+}
+
+    .sidebar .nav-link {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 10px 20px;
+        color: #fff;
+    }
+
+    .sidebar .description {
+        font-size: 14px;
+    }
+
+    .sidebar .nav-link:hover {
+        background-color: teal;
+    }
+
+.active {
+    background-color: #3A6EA5;
+}
+
+.sidebar .sub-menu {
+    width: 100%;
+    background-color: #023565;
+    /*padding-left: 3%;*/
+}
+
+.bg-title {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    display: block;
+    font-size: 39px;
+    font-weight: bold;
+    opacity: 0.45;
+    position: relative;
+    text-align: center;
+}
+
+.flex-even {
+    flex: 1;
+}
+
+.main-content {
+    height: 100%;
+    background-image: url("/Images/tfja.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20em;
+    margin-left: 200px;
+    padding: 20px;
+}
+
+    .main-content .advanced-search-box {
+        display: none;
+    }
+
+
+.btn-square-md {
+    width: 65px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 65px !important;
+    text-align: center;
+    padding: 0px;
+    font-size: 12px;
+}
+
+.demo {
+    margin: 2em;
+    max-width: 300px;
+}
+
+.tab-content {
+    margin-top: 1em;
+}
+
+/* tab reordering fix - older browsers may require other prefixed rules */
+.nav.nav-tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-container .nav-link {
+    color: #fff;
+}
+
+/* Botones del lado derecho - Start */
+.icon-nuevo {
+    background-image: url("/images/nuevo1.png");
+    background-size: cover;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.icon-guardar {
+    background-image: url("/images/guardar1.png");
+    background-size: cover;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.icon-cancelar {
+    background-image: url("/images/cancela.png");
+    background-size: cover;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.icon-consulta {
+    background-image: url("/images/consulta.png");
+    background-size: cover;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.icon-detalle {
+    background-image: url("/images/detalle.png");
+    background-size: cover;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.icon-limpiar {
+    background-image: url("/images/cleanscr.png");
+    background-size: cover;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.icon-exportar {
+    background-image: url("/images/excel.png");
+    background-size: cover;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+/* Botones del lado derecho - End */
+
+@media (max-width:480px) {
+    .sidebar {
+        width: 60px;
+    }
+
+        .sidebar .description {
+            display: none;
+        }
+
+        .sidebar .nav-link {
+            justify-content: center;
+        }
+
+    .main-content {
+        margin-left: 60px;
+    }
+}
+
+#example {
+    /*table-layout: fixed;*/
+    width: 100% !important;
+}
+
+    #example td {
+        width: 800px;/* auto !important;*/
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    #example th {
+        width: auto !important;
+        white-space: normal;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+
+div.dt-container {
+    width: 800px;
+    margin: 0 auto;
+}
